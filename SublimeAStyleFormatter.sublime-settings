@@ -1,0 +1,17 @@
+{
+    // NOTE: You should always edit options in user file, not this file.
+
+    // Auto format on file save
+    "autoformat_on_save": true,
+
+    // Please visit http://astyle.sourceforge.net/astyle.html for more information
+    "options_default": {
+
+        // Tab options
+        // Can be either "spaces", "tab" or "force-tab",
+        "indent": "spaces",
+        "indent-spaces": 2,
+        "min-conditional-indent": 1
+    }
+
+}
