@@ -1,2 +1,90 @@
 [
+    //Command + i to indent the whole file
+    { "keys": ["control+i"], "command": "reindent", "args": {"single_line": false} },
+
+    //Modified paste to autoindent
+    { "keys": ["control+v"], "command": "paste_and_indent" },
+    { "keys": ["control+shift+v"], "command": "paste" },
+
+    { "keys": ["control+0"], "command": "refresh_folder_list" },
+    // Pane Navigation
+    {
+        "keys": ["alt+shift+l"],
+        "command": "pane_navigation",
+        "args": {"direction": 1}
+    },
+    {
+        "keys": ["alt+shift+h"],
+        "command": "pane_navigation",
+        "args": {"direction": -1}
+    },
+
+    // Modified Tab Navigation
+    {
+        "keys": ["alt+shift+k"],
+        "command": "next_view_in_pane"
+    },
+    {
+        "keys": ["alt+shift+j"],
+        "command": "prev_view_in_pane" },
+
+    // Key bindings to send tabs between open panes
+    { "keys": ["control+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
+
+    {
+        "keys": ["ctrl+alt+w"], "command": "tidy_tabs"
+    },
+
+    {
+        "keys": ["alt+shift+6"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,1],[1,0,2,2],[0,1,1,2]]
+        }
+    },
+    {
+        "keys": ["alt+shift+7"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols":[0,0.5,1],
+            "rows":[0,0.5,1],
+            "cells":[[0,0,1,2],[1,0,2,1],[1,1,2,2]]
+        }
+    },
+    {
+        "keys": [
+            "ctrl+shift+up"
+        ],
+        "args": {
+            "action": "increment_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "ctrl+shift+down"
+        ],
+        "args": {
+            "action": "decrement_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    },
+    { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} }
+
 ]
