@@ -12,7 +12,6 @@ See the instructions here: [Package Control Installation](http://wbond.net/subli
 
 #### Installing packages
 Using the package manager, open Sublime Text 3 and install the following packages:
-- BlockCursorEverywhere
 - BracketHighlighter
 - Clay Schubiner Color Schemes
 - SublimePaneNavigation
