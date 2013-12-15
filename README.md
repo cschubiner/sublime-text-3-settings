@@ -12,13 +12,18 @@ See the instructions here: [Package Control Installation](http://wbond.net/subli
 
 #### Installing packages
 Using the package manager, open Sublime Text 3 and install the following packages:
-- Automatic Backups
+- BlockCursorEverywhere
 - BracketHighlighter
 - Clay Schubiner Color Schemes
-- Pane Navigation
+- SublimePaneNavigation
 - SideBarEnhancements
 - SublimeAStyleFormatter
-- SublimeBlockCursor
+
+Also install BlockCursorEverywhere, which is currently not available in package control:
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+git clone https://github.com/jlangston/BlockCursorEverywhere.git
+```
 
 #####Optional packages
 - Display Functions (Java)
