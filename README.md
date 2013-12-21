@@ -14,14 +14,13 @@ See the instructions here: [Package Control Installation](http://wbond.net/subli
 Using the package manager, open Sublime Text 3 and install the following packages:
 - BracketHighlighter
 - Clay Schubiner Color Schemes
-- SublimePaneNavigation
 - SideBarEnhancements
 - SublimeAStyleFormatter
 
-Also install BlockCursorEverywhere, which is currently not available in package control:
+Also install SublimePaneNavigation, which is currently not available in package control:
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-git clone https://github.com/jlangston/BlockCursorEverywhere.git
+git clone https://github.com/borist/SublimePaneNavigation.git
 ```
 
 #####Optional packages
