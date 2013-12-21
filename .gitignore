@@ -1,0 +1,5 @@
+Package Control.last-run
+Package Control.system-ca-bundle
+Package Control.cache/
+*.cache
+bh_unicode_properties.cache

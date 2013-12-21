@@ -2,6 +2,11 @@
     //Command + i to indent the whole file
     { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
 
+    { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    { "keys": ["ctrl+f5"], "command": "sort_lines", "args": {"case_sensitive": true} },
+    { "keys": ["f6"], "command": "permute_lines_unique", "args": {"unique": true} },
+    // { "keys": ["ctrl+f6"], "command": "sort_lines", "args": {"case_sensitive": true} },
+
     //Modified paste to autoindent
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },
