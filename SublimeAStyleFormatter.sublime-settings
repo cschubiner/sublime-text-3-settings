@@ -6,11 +6,14 @@
 
     // Please visit http://astyle.sourceforge.net/astyle.html for more information
     "options_default": {
+        // Default bracket style
+        "style": "java",
+        "align-pointer":"middle",
 
         // Tab options
         // Can be either "spaces", "tab" or "force-tab",
         "indent": "spaces",
-        "indent-spaces": 2,
+        "indent-spaces": 4,
         "min-conditional-indent": 1
     }
 

@@ -4,6 +4,9 @@
 		"BracketHighlighter",
 		"Clay Schubiner Color Schemes",
 		"SideBarEnhancements",
-		"SublimeAStyleFormatter"
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-javac",
+		"SublimeLinter-pyflakes"
 	]
 }
