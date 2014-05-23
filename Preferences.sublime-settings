@@ -3,7 +3,7 @@
 	"auto_complete_delay": 30,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Today (SL).tmTheme",
+//	"color_scheme": "Packages/User/Today (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
