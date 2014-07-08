@@ -32,6 +32,7 @@ git clone https://github.com/borist/SublimePaneNavigation.git
 - Pretty JSON
 - SCSS
 - sublime-jslint
+- JavascriptBeautify
 
 
 ### Installing the settings
