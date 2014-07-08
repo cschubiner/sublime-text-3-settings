@@ -3,10 +3,9 @@
 	[
 		"BracketHighlighter",
 		"Clay Schubiner Color Schemes",
+		"Javascript Beautify",
+		"JSHint Gutter",
 		"SideBarEnhancements",
-		"SublimeAStyleFormatter",
-		"SublimeLinter",
-		"SublimeLinter-javac",
-		"SublimeLinter-pyflakes"
+		"SublimeAStyleFormatter"
 	]
 }

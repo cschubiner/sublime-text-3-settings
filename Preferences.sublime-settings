@@ -3,7 +3,7 @@
 	"auto_complete_delay": 30,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-//	"color_scheme": "Packages/User/Today (SL).tmTheme",
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
@@ -41,12 +41,12 @@
 		".rbx",
 		"CVS"
 	],
-	"font_face": "Source Code Pro Semibold",
+	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13.5,
+	"font_size": 12.5,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -57,8 +57,7 @@
 		"draw_active"
 	],
 	"inverse_caret_state": true,
-	"line_padding_bottom": 1,
-	"margin": 2,
+	"line_padding_bottom": 2,
 	"match_brackets_braces": true,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
