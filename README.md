@@ -31,8 +31,8 @@ git clone https://github.com/borist/SublimePaneNavigation.git
 - MagentoIntel
 - Pretty JSON
 - SCSS
-- sublime-jslint
 - JavascriptBeautify
+- SublimeLinter (See http://sublimelinter.readthedocs.org/en/latest/installation.html)
 
 
 ### Installing the settings
