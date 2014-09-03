@@ -1,7 +1,11 @@
 Sublime Text 3 Settings
 =======================
 
-These are the settings I use in Sublime Text 3. There are no dependencies right now.
+These are the settings I use in Sublime Text 3.
+
+## Presentation Slides
+
+Slides with basic instructions are available here: [Sublime Text 3 Presentation Slides](https://www.dropbox.com/sh/qyxc9uv558e3uur/AABWVnwcQkB57GMWDbR371LDa?dl=0)
 
 ## Install
 
