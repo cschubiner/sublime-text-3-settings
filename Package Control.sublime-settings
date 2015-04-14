@@ -1,11 +1,16 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
 		"Clay Schubiner Color Schemes",
 		"Javascript Beautify",
 		"JSHint Gutter",
+		"Package Control",
 		"SideBarEnhancements",
-		"SublimeAStyleFormatter"
+		"SublimeAStyleFormatter",
+		"Terminal"
 	]
 }
