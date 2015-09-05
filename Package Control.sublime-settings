@@ -4,11 +4,17 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Clay Schubiner Color Schemes",
+		"DocBlockr",
+		"GitGutter",
 		"Javascript Beautify",
 		"JSHint Gutter",
 		"Package Control",
+		"SCSS",
 		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
 		"Terminal"

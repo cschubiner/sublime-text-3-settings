@@ -46,7 +46,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13.5,
+	"font_size": 14.5,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -56,6 +56,7 @@
 	[
 		"draw_active"
 	],
+	"index_files": true,
 	"inverse_caret_state": true,
 	"line_padding_bottom": 2,
 	"match_brackets_braces": true,
