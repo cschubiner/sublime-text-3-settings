@@ -5,7 +5,7 @@ These are the settings I use in Sublime Text 3.
 
 ## Presentation Slides
 
-Slides with basic instructions are available here: [Sublime Text 3 Presentation Slides](https://www.dropbox.com/sh/qyxc9uv558e3uur/AABWVnwcQkB57GMWDbR371LDa?dl=0)
+Slides with basic instructions are available here: [Sublime Text 3 Presentation Slides](https://www.dropbox.com/s/8tn6p01wncvf6rh/sublime%20text%20editor%20presentation%20Airbnb.key?dl=0)
 
 ## Install
 
