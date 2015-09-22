@@ -10,11 +10,9 @@ Slides with basic instructions are available here: [Sublime Text 3 Presentation 
 ## Install
 
 ###Installing necessary packages
-
-#### Installing the package manager
 See the instructions here: [Package Control Installation](http://wbond.net/sublime_packages/package_control/installation#ST3)
 
-### Installing the settings
+#### Installing the settings
 Go to your Packages directory:
 
 ```
@@ -36,7 +34,7 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone https://github.com/borist/SublimePaneNavigation.git
 ```
 
-### Installing the autoformatter for Rails html.erb files
+#### Installing the autoformatter for Rails html.erb files
 ```
 gem install htmlbeautifier
 ```
