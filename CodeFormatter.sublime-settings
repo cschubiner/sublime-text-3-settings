@@ -1,0 +1,52 @@
+{
+  "codeformatter_php_options":
+  {
+    "indent_size": 2, // Indent size
+    "indent_with_tabs": false // Indent with tabs or spaces
+  },
+
+  "codeformatter_js_options":
+  {
+    "indent_size": 2, // indentation size
+    "indent_char": " ", // Indent character
+        "indent_with_tabs": false, // Indent with one tab (overrides indent_size and indent_char options)
+    "eol": "\n", // EOL symbol
+    "preserve_newlines": false, // whether existing line breaks should be preserved,
+    "max_preserve_newlines": 10, // maximum number of line breaks to be preserved in one chunk
+    "space_in_paren": false, // Add padding spaces within paren, ie. f( a, b )
+    "space_in_empty_paren": false, // Add padding spaces within paren if parent empty, ie. f(  )
+    "e4x": false, // Pass E4X xml literals through untouched
+    "jslint_happy": false, // if true, then jslint-stricter mode is enforced. Example function () vs function()
+    "comma_first": false // Add comma first
+  },
+  "codeformatter_css_options":
+  {
+    "indent_size": 2, // Indentation size
+    "indent_char": " ", // Indentation character
+    "indent_with_tabs": false, // Indent with one tab (overrides indent_size and indent_char options)
+    "selector_separator_newline": false, // Add new lines after selector separators
+        "newline_between_rules": false, // Add new line between rules
+  },
+
+  "codeformatter_html_options":
+  {
+    "indent_size": 2, // indentation size
+    "indent_char": " ", // Indentation character
+    "indent_with_tabs": false, // Indent with one tab (overrides indent_size and indent_char options)
+    "preserve_newlines": false, // Preserve existing line-breaks
+    "max_preserve_newlines": 10 // Maximum number of line-breaks to be preserved in one chunk
+  },
+
+  "codeformatter_python_options":
+  {
+    "indent_size": 2, // indentation size
+    "indent_with_tabs": false, // Indent with tabs or spaces
+    "max_char": 80, // Width of output lines in characters.
+    "assignment": " = ", // This is how the assignment operator is to appear.
+    "function_param_assignment": "=", // This is how function-parameter assignment should appear.
+    "function_param_sep": ", ", // This is how function parameters are separated.
+    "list_sep": ", "
+  }
+
+
+}

@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -6,13 +7,16 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
+		"BeautifyRuby",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Clay Schubiner Color Schemes",
+		"CodeFormatter",
 		"DocBlockr",
 		"GitGutter",
 		"Javascript Beautify",
 		"JSHint Gutter",
+		"JSON Reindent",
 		"Package Control",
 		"SCSS",
 		"SideBarEnhancements",

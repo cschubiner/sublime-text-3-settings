@@ -46,7 +46,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14.5,
+	"font_size": 15.5,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -69,7 +69,7 @@
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": true,
 	"spell_check": false,
-	"tab_size": 4,
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,

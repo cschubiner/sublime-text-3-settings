@@ -14,31 +14,6 @@ Slides with basic instructions are available here: [Sublime Text 3 Presentation 
 #### Installing the package manager
 See the instructions here: [Package Control Installation](http://wbond.net/sublime_packages/package_control/installation#ST3)
 
-#### Installing packages
-Using the package manager, open Sublime Text 3 and install the following packages:
-- BracketHighlighter
-- Clay Schubiner Color Schemes
-- SideBarEnhancements
-- SublimeAStyleFormatter
-
-Also install SublimePaneNavigation, which is currently not available in package control:
-```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-git clone https://github.com/borist/SublimePaneNavigation.git
-```
-
-#####Optional packages
-- Display Functions (Java)
-- EasyMotion
-- Emmet
-- jQuery
-- MagentoIntel
-- Pretty JSON
-- SCSS
-- JavascriptBeautify
-- SublimeLinter (See http://sublimelinter.readthedocs.org/en/latest/installation.html)
-
-
 ### Installing the settings
 Go to your Packages directory:
 
@@ -50,6 +25,20 @@ Clone as your `User` packages:
 
 ```
 git clone https://github.com/cschubiner/sublime-text-3-settings.git User
+```
+
+#### Installing SublimePaneNavigation
+Most packages should install automatically, but you will need to manually install SublimePaneNavigation.
+
+You can install SublimePaneNavigation by doing the following:
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+git clone https://github.com/borist/SublimePaneNavigation.git
+```
+
+### Installing the autoformatter for Rails html.erb files
+```
+gem install htmlbeautifier
 ```
 
 You're done!
