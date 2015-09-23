@@ -1,6 +1,4 @@
 {
-    // NOTE: You should always edit options in user file, not this file.
-
     // Auto format on file save
     "autoformat_on_save": true,
 
@@ -13,7 +11,7 @@
         // Tab options
         // Can be either "spaces", "tab" or "force-tab",
         "indent": "spaces",
-        "indent-spaces": 4,
+        "indent-spaces": 2,
         "min-conditional-indent": 1
     }
 
