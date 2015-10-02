@@ -1,5 +1,5 @@
 {
-    "run_on_save": true,
+    "run_on_save": false,
     "save_on_beautify": true,
     "remove_extraline": false,
     "translate_tabs_to_spaces": true

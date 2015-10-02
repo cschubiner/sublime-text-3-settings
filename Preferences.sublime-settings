@@ -3,7 +3,8 @@
 	"auto_complete_delay": 30,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/Today (SL).tmTheme",
+	// "color_scheme": "Packages/User/Blue Thunder.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
@@ -44,7 +45,7 @@
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
-		"subpixel_antialias"
+		"subpixel_antialias",
 	],
 	"font_size": 15.5,
 	"highlight_line": false,
