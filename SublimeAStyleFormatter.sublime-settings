@@ -1,6 +1,6 @@
 {
     // Auto format on file save
-    "autoformat_on_save": true,
+    "autoformat_on_save": false,
 
     // Please visit http://astyle.sourceforge.net/astyle.html for more information
     "options_default": {

@@ -1,0 +1,6 @@
+{
+  "cmd": ["git status -s | egrep -v ^.D | cut -d' ' -f3 | xargs -n1 touch"],
+  "working_dir": "${project_path:${folder}}",
+  "file_regex": ".*rb$",
+  "shell": "true"
+}
