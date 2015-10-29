@@ -46,7 +46,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14.5,
+	"font_size": 13.5,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -65,6 +65,10 @@
 	"match_tags": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		100
+	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": true,

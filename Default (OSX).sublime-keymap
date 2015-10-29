@@ -16,8 +16,8 @@
     // { "keys": ["ctrl+f6"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
     //Modified paste to autoindent
-    // { "keys": ["super+v"], "command": "paste_and_indent" },
-    // { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
 
     { "keys": ["super+alt+r"], "command": "goto_definition" },
 
