@@ -1,6 +1,6 @@
 {
   // "cmd": ["git status -s | egrep -v ^.D | cut -d' ' -f3 | xargs -n1 touch"],
-  "cmd": ["git status -s | grep ' [M|A] ' | cut -d ' ' -f3 | xargs -n1 touch"],
+  "cmd": ["git status -s | egrep '(([M|A][M|A])|( [M|A])|([M|A] )) ' | cut  -c 4- | xargs -n1 touch"],
   "working_dir": "${project_path:${folder}}",
   "file_regex": ".*rb$",
   "shell": "true"

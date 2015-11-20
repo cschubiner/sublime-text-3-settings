@@ -7,6 +7,8 @@
         ]
     },
 
+    { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
     //Command + i to indent the whole file
     { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
 
@@ -45,8 +47,8 @@
         "command": "prev_view_in_pane" },
 
     // Key bindings to send tabs between open panes
-    { "keys": ["control+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
-    { "keys": ["control+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["super+control+shift+j"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["super+control+shift+k"], "command": "move_to_group", "args": { "group": 1 } },
 
     {
         "keys": ["ctrl+alt+w"], "command": "tidy_tabs"
