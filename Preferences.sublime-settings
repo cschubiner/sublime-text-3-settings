@@ -3,6 +3,7 @@
 	"auto_complete_delay": 30,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/User/Today (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,

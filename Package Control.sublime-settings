@@ -7,6 +7,7 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
+		"Babel",
 		"BeautifyRuby",
 		"Better CoffeeScript",
 		"BracketHighlighter",
@@ -14,15 +15,21 @@
 		"Clay Schubiner Color Schemes",
 		"CodeFormatter",
 		"DocBlockr",
-		"GitGutter",
+		"Emmet",
+		"Emmet Css Snippets",
+		"GitHubinator",
 		"Javascript Beautify",
 		"JSHint Gutter",
 		"JSON Reindent",
 		"Package Control",
+		"Project Manager",
+		"RailsGoToSpec",
 		"Ruby on Rails snippets",
 		"SCSS",
-		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
-		"Terminal"
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Terminal",
+		"VCS Gutter"
 	]
 }
