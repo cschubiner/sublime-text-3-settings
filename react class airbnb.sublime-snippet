@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+import React, { PropTypes } from 'react';
+
+const propTypes = {
+
+};
+
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends React.Component {
+  render() {
+    return ${2:(
+      ${3:<div>${0}</div>}
+    );}
+  }
+}
+
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = propTypes;
+
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: class component</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content>retired: true
+winner: control
+outcome_decision: retire to control
+outcome_date: 2016-04-28 00:00:00</content>
+    <tabTrigger>outc</tabTrigger>
+    <scope></scope>
+    <description>React: outcome decision for retiring experiments</description>
+</snippet>

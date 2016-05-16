@@ -17,6 +17,10 @@
     { "keys": ["f6"], "command": "permute_lines_unique", "args": {"unique": true} },
     // { "keys": ["ctrl+f6"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
+    { "keys": ["super+shift+c"], "command": "copy_from_find_results",
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.find-in-files" }]
+    },
+
     //Modified paste to autoindent
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },

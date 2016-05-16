@@ -14,13 +14,13 @@
 				<key>background</key>
 				<string>#FFFFFF</string>
 				<key>caret</key>
-				<string>#AEAFAD</string>
+				<string>#252525</string>
 				<key>foreground</key>
 				<string>#4D4D4C</string>
 				<key>invisibles</key>
 				<string>#D1D1D1</string>
 				<key>lineHighlight</key>
-				<string>#EFEFEF</string>
+				<string>#f2f2f2</string>
 				<key>selection</key>
 				<string>#D6D6D6</string>
 			</dict>
@@ -289,6 +289,19 @@
 			</dict>
 		</dict>
 	<dict>
+	    <key>name</key>
+	    <string>Block Cursor</string>
+	    <key>scope</key>
+	    <string>block_cursor</string>
+	    <key>settings</key>
+	    <dict>
+	        <key>foreground</key>
+	        <string>#000000</string>
+	        <key>background</key>
+	        <string>#b2b2b2</string>
+	    </dict>
+	</dict>
+	<dict>
             <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
@@ -296,7 +309,17 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DA2000</string>
+                <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -307,16 +330,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#EDBA00</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

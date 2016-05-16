@@ -4,7 +4,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Today (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Today (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
@@ -35,31 +35,41 @@
 	"folder_exclude_patterns":
 	[
 		".svn",
-		".git",
 		".hg",
-		".git",
 		".bundle",
 		".rbx",
-		"CVS"
+		"CVS",
+		".git",
+		".vagrant",
+		"Zend",
+		"log",
+		"logs",
+		".idea",
+		".jsx.html",
+		".chefrepo",
+		"spec/reports",
+		"tmp"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13.5,
-	"highlight_line": false,
+	"font_size": 13,
+	"inverse_caret_state": true,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"FindResultsApplyChanges"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
 	"index_files": true,
-	"inverse_caret_state": true,
-	"line_padding_bottom": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"match_brackets_braces": true,
 	"match_brackets_content": true,
 	"match_brackets_square": true,
@@ -72,7 +82,7 @@
 	],
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
-	"show_tab_close_buttons": true,
+	"show_tab_close_buttons": false,
 	"spell_check": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
