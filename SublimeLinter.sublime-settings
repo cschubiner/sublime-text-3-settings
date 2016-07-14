@@ -2,9 +2,9 @@
 	"user":
 	{
 		"debug": false,
-		"delay": 0.25,
+		"delay": 0.1,
 		"error_color": "D02000",
-		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Koloria/Koloria.gutter-theme",
 		"gutter_theme_excludes":
 		[
 		],

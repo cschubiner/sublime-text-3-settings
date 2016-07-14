@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"1Self",
-		"AdvancedNewFile",
 		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
@@ -16,12 +15,17 @@
 		"Case Conversion",
 		"Clay Schubiner Color Schemes",
 		"Copy from Find Results",
+		"File Rename",
+		"FileBinder",
+		"FileBrowser",
 		"FileCommands",
 		"FindResultsApplyChanges",
 		"Git",
+		"GitGutter",
 		"GitHubinator",
 		"JSON Reindent",
 		"NodeRequirer",
+		"Open Finder",
 		"Package Control",
 		"Path Tools",
 		"Project Manager",
@@ -29,12 +33,11 @@
 		"RuboCop",
 		"SCSS",
 		"SublimeAStyleFormatter",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-rubocop",
-		"Terminal",
-		"VCS Gutter"
+		"Swift",
+		"Terminal"
 	]
 }
