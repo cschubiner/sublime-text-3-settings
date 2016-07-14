@@ -6,11 +6,10 @@
 
     { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
 
-    { "keys": ["z", "s"], "command": "move_to", "args": {"to": "bol", "extend": false}, "context":
-        [
-            { "key": "setting.command_mode", "operand": true },
-            { "key": "setting.is_widget", "operand": false }
-        ]
+    { "keys":  ["z", "s"], "command": "set_motion", "args": {
+        "motion": "vi_move_to_first_non_white_space_character",
+        "motion_args": {"extend": true }},
+        "context": [{"key": "setting.command_mode"}]
     },
 
     { "keys":  ["z", "l"], "command": "set_motion", "args": {
