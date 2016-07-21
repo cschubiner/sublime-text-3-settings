@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"1Self",
-		"All Autocomplete",
 		"Babel",
 		"Babel Snippets",
 		"BeautifyRuby",
@@ -19,10 +18,10 @@
 		"FileBinder",
 		"FileBrowser",
 		"FileCommands",
-		"FindResultsApplyChanges",
 		"Git",
 		"GitGutter",
 		"GitHubinator",
+		"Gitignored File Excluder",
 		"JSON Reindent",
 		"NodeRequirer",
 		"Open Finder",
@@ -30,14 +29,12 @@
 		"PackageResourceViewer",
 		"Path Tools",
 		"Project Manager",
-		"RailsGoToSpec",
-		"RuboCop",
 		"SCSS",
 		"SublimeAStyleFormatter",
+		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-rubocop",
 		"Swift",
 		"Terminal"
 	]

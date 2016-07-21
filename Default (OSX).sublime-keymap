@@ -29,7 +29,6 @@
 
     { "keys": ["z", "f"], "command": "fold_by_level", "args": {"level": 1}, "context": [{"key": "setting.command_mode"}] },
 
-
     { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
     //Command + i to indent the whole file

@@ -1,6 +1,7 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 30,
+	"auto_complete_selector": "source, text",
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
@@ -9,8 +10,7 @@
 	"detect_indentation": true,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"file_exclude_patterns":
+	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
 		"*.pyo",
@@ -32,6 +32,63 @@
 		"*.psd",
 		"*.db"
 	],
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".hg",
+		".bundle",
+		".rbx",
+		"CVS",
+		".git",
+		".vagrant",
+		"Zend",
+		"log",
+		"logs",
+		".idea",
+		".jsx.html",
+		".chefrepo",
+		"spec/reports",
+		"tmp",
+		"*/node_modules/*",
+		"*/coverage/*",
+		"node_modules",
+		"app/assets/javascripts/vendor",
+		"vendor",
+		"coverage/",
+		"public/ckeditor"
+	],
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"/Users/clay_schubiner/airlab/repos/airbnb/config/database.yml",
+		"/Users/clay_schubiner/airlab/repos/airbnb/app/views/header/.DS_Store",
+		"/Users/clay_schubiner/airlab/repos/airbnb/app/assets/javascripts/header/trips/.DS_Store",
+		"/Users/clay_schubiner/airlab/repos/airbnb/javascript_metadata.json",
+		"/Users/clay_schubiner/airlab/repos/airbnb/app/assets/javascripts/packages/admin/.DS_Store",
+		"/Users/clay_schubiner/airlab/repos/airbnb/spec/.DS_Store",
+		"/Users/clay_schubiner/airlab/repos/airbnb/config/s3_credentials.yml",
+		"/Users/clay_schubiner/airlab/repos/airbnb/config/configatron/secure.yml",
+		"*.min.js"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -50,7 +107,12 @@
 		"spec/reports",
 		"tmp",
 		"*/node_modules/*",
-		"*/coverage/*"
+		"*/coverage/*",
+		"/Users/clay_schubiner/airlab/repos/airbnb/coverage",
+		"/Users/clay_schubiner/airlab/repos/airbnb/tmp",
+		"/Users/clay_schubiner/airlab/repos/airbnb/.bundle",
+		"/Users/clay_schubiner/airlab/repos/airbnb/log",
+		"/Users/clay_schubiner/airlab/repos/airbnb/node_modules"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
@@ -62,7 +124,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"FindResultsApplyChanges"
 	],
 	"indent_guide_options":
 	[
