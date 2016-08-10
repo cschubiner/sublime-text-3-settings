@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+alt+w"], "command": "surround_with", "args": { "action": "while" }  },
+	{ "keys": ["ctrl+alt+f"], "command": "surround_with", "args": { "action": "for" }  },
+	{ "keys": ["ctrl+alt+t"], "command": "surround_with", "args": { "action": "try" }  },
+	{ "keys": ["ctrl+alt+u"], "command": "surround_with", "args": { "action": "dowhile" }  },
+	{ "keys": ["ctrl+alt+i"], "command": "surround_with", "args": { "action": "if" }  },
+	{ "keys": ["ctrl+alt+e"], "command": "surround_with", "args": { "action": "ifelse" }  },
+	{ "keys": ["ctrl+alt+d"], "command": "surround_with", "args": { "action": "div" }  }
+]

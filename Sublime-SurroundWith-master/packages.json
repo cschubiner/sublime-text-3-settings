@@ -1,0 +1,19 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "SurroundWith",
+			"description": "A 'surround with' ability for Sublime Text like Eclipse has.",
+			"author": "Andr3as",
+			"details": "https://github.com/Andr3as/Sublime-SurroundWith",
+			"homepage": "http://andrano.de/SurroundWith/",
+			"labels": ["text manipulation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/Andr3as/Sublime-SurroundWith/tree/master"
+				}
+			]
+		}
+	]
+}

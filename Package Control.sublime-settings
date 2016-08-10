@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"1Self",
+		"AutoFileName",
 		"Babel",
 		"Babel Snippets",
 		"BeautifyRuby",
@@ -14,6 +15,7 @@
 		"Case Conversion",
 		"Clay Schubiner Color Schemes",
 		"Copy from Find Results",
+		"DashDoc",
 		"File Rename",
 		"FileBinder",
 		"FileBrowser",
@@ -28,7 +30,8 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"Path Tools",
-		"Project Manager",
+		"ProjectManager",
+		"RuboCop",
 		"SCSS",
 		"SublimeAStyleFormatter",
 		"SublimeCodeIntel",
@@ -36,6 +39,7 @@
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"Swift",
-		"Terminal"
+		"Terminal",
+		"Zen Tabs"
 	]
 }

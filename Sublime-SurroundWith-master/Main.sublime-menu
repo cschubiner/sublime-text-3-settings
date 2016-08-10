@@ -1,0 +1,147 @@
+[
+    {
+        "caption": "Edit",
+        "mnemonic": "E",
+        "id": "edit",
+        "children":
+        [
+            {
+                "caption": "Surround with",
+                "mnemonic": "o",
+                "id": "surround-with",
+                "children":
+                [
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "while" },
+                        "mnemonic": "W",
+                        "caption": "Surround with a While-Loop"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "for" },
+                        "mnemonic": "F",
+                        "caption": "Surround with a For-Loop"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "try" },
+                        "mnemonic": "T",
+                        "caption": "Surround with a Try/Catch-Clause"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "dowhile" },
+                        "mnemonic": "o",
+                        "caption": "Surround with a Do-While-Loop"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "if" },
+                        "mnemonic": "I",
+                        "caption": "Surround with an If-Clause"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "ifelse" },
+                        "mnemonic": "E",
+                        "caption": "Surround with an If-Else-Clause"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "surround_with", 
+                        "args": { "action": "div" },
+                        "mnemonic": "D",
+                        "caption": "Surround with a Div"
+                    },
+                    {
+                        "caption": "-"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Surround with",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SurroundWith/SurroundWith.py"
+                                },
+                                "caption": "Edit Plugin"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SurroundWith/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SurroundWith/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SurroundWith/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

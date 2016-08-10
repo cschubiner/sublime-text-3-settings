@@ -1,0 +1,7 @@
+{
+  // Automatically run tidytabs after a file is saved
+  "tidytabs_run_on_post_save": true,
+  // If this is set and greater than 0, tidytabs will only run if
+  // the number of tabs is greater than the threshold setting.
+  "tidytabs_threshold": 5
+}
