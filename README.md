@@ -25,8 +25,17 @@ Clone as your `User` packages:
 git clone https://github.com/cschubiner/sublime-text-3-settings.git User
 ```
 
+#### Installing Sublime-SurroundWith
+Most packages should install automatically, but you will need to manually install Sublime-SurroundWith.
+
+You can install Sublime-SurroundWith by doing the following:
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+git clone https://github.com/cschubiner/Sublime-SurroundWith.git
+```
+
 #### Installing SublimePaneNavigation
-Most packages should install automatically, but you will need to manually install SublimePaneNavigation.
+You will also need to manually install SublimePaneNavigation.
 
 You can install SublimePaneNavigation by doing the following:
 ```
