@@ -25,6 +25,12 @@ Clone as your `User` packages:
 git clone https://github.com/cschubiner/sublime-text-3-settings.git User
 ```
 
+You'll also need to install `ag`
+
+```
+brew install ag
+```
+
 #### Installing Sublime-SurroundWith
 Most packages should install automatically, but you will need to manually install Sublime-SurroundWith.
 

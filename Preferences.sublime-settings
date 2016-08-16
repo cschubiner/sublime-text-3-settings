@@ -55,7 +55,8 @@
 		"app/assets/javascripts/vendor",
 		"vendor",
 		"coverage/",
-		"public/ckeditor"
+		"public/ckeditor",
+		"*/embed/images/*"
 	],
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
