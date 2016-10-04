@@ -10,28 +10,6 @@
 	"detect_indentation": true,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
-	"extra_file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db"
-	],
 	"extra_folder_exclude_patterns":
 	[
 		".svn",
@@ -88,7 +66,8 @@
 		"/Users/clay_schubiner/airlab/repos/airbnb/spec/.DS_Store",
 		"/Users/clay_schubiner/airlab/repos/airbnb/config/s3_credentials.yml",
 		"/Users/clay_schubiner/airlab/repos/airbnb/config/configatron/secure.yml",
-		"*.min.js"
+		"*.min.js",
+		"*/brakeman.json"
 	],
 	"folder_exclude_patterns":
 	[
@@ -120,7 +99,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
