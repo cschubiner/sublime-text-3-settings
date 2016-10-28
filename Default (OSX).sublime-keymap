@@ -1,4 +1,6 @@
 [
+     { "keys": ["super+e"], "command": "recent_file_switcher" },
+
     { "keys": ["super+k", "super+x"],
        "command": "dired",
        "args": { "immediate": true },
