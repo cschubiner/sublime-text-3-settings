@@ -41,7 +41,8 @@
 		"/Users/clay_schubiner/airlab/repos/airbnb/config/s3_credentials.yml",
 		"/Users/clay_schubiner/airlab/repos/airbnb/config/configatron/secure.yml",
 		"*.min.js",
-		"*/brakeman.json"
+		"*/brakeman.json",
+		"*/embed/images/*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -73,7 +74,7 @@
 		"*/vendor/*",
 		"coverage/",
 		"public/ckeditor",
-		"*/embed/images/*",
+		"*/embed/imag"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
