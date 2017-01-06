@@ -1,5 +1,6 @@
 [
-     { "keys": ["super+e"], "command": "recent_file_switcher" },
+     { "keys": ["super+e", "super+a"], "command": "recent_file_switcher" },
+     { "keys": ["super+e", "super+r"], "command": "recent_active_files" },
 
     { "keys": ["super+k", "super+x"],
        "command": "dired",
@@ -8,14 +9,20 @@
 
     { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
 
+
+    { "keys": ["super+shift+\\"], "command": "sublime_bookmark", "args" : { "type" : "add"  } },
+    { "keys": ["super+]"], "command": "sublime_bookmark", "args" : { "type" : "goto_prev" } },
+    { "keys": ["super+["], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
+    { "keys": ["super+shift+\\"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line"  } },
+
+
     { "keys":  ["H"], "command": "set_motion", "args": {
         "motion": "vi_move_to_first_non_white_space_character",
         "motion_args": {"extend": true }},
         "context": [{"key": "setting.command_mode"}]
     },
 
-    { "keys":  ["L"], "command": "set_motion", "args": {
-        "motion": "vi_move_to_hard_eol",
+    { "keys":  ["L"], "command": "set_motion", "args": {"motion": "vi_move_to_hard_eol",
         "motion_args": {"repeat": 1, "extend": true},
         "inclusive": true },
         "context": [{"key": "setting.command_mode"}]
