@@ -17,6 +17,17 @@
     { "keys": ["super+["], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
     { "keys": ["super+\\"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
 
+    { "keys": ["shift+escape"], "command": "single_selection", "context":
+        [
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
+    { "keys": ["escape"], "command": "single_last_selection", "context":
+        [
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
+
 
     { "keys":  ["H"], "command": "set_motion", "args": {
         "motion": "vi_move_to_first_non_white_space_character",
