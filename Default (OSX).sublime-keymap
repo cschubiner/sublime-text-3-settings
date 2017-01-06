@@ -9,6 +9,8 @@
 
     { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
 
+    { "keys": ["super+u"], "command": "jump_back" },
+    { "keys": ["super+i"], "command": "jump_forward" },
 
     { "keys": ["super+\\"], "command": "sublime_bookmark", "args" : { "type" : "add"  } },
     { "keys": ["super+]"], "command": "sublime_bookmark", "args" : { "type" : "goto_prev" } },
@@ -41,11 +43,11 @@
     { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
     //Command + i to indent the whole file
-    { "keys": ["command+i"], "command": "reindent", "args": {"single_line": false} },
+    // { "keys": ["super+i"], "command": "reindent", "args": {"single_line": false} },
 
-    { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
-    { "keys": ["ctrl+f5"], "command": "sort_lines", "args": {"case_sensitive": true} },
-    { "keys": ["f6"], "command": "permute_lines_unique", "args": {"unique": true} },
+    // { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
+    // { "keys": ["ctrl+f5"], "command": "sort_lines", "args": {"case_sensitive": true} },
+    // { "keys": ["f6"], "command": "permute_lines_unique", "args": {"unique": true} },
     // { "keys": ["ctrl+f6"], "command": "sort_lines", "args": {"case_sensitive": true} },
 
     { "keys": ["super+shift+c"], "command": "copy_from_find_results",
