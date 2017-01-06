@@ -10,10 +10,10 @@
     { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
 
 
-    { "keys": ["super+shift+\\"], "command": "sublime_bookmark", "args" : { "type" : "add"  } },
+    { "keys": ["super+\\"], "command": "sublime_bookmark", "args" : { "type" : "add"  } },
     { "keys": ["super+]"], "command": "sublime_bookmark", "args" : { "type" : "goto_prev" } },
     { "keys": ["super+["], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
-    { "keys": ["super+shift+\\"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line"  } },
+    { "keys": ["super+\\"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
 
 
     { "keys":  ["H"], "command": "set_motion", "args": {
