@@ -77,14 +77,15 @@
 		"*/embed/imag",
 		"*/embed/images",
 		"*/embed/image*",
-		"*/embed/image"
+		"*/embed/image",
+		"*/sprockets_symlinked_assets/*"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

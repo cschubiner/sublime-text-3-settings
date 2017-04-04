@@ -17,12 +17,12 @@
     { "keys": ["super+["], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
     { "keys": ["super+\\"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
 
-    { "keys": ["shift+escape"], "command": "single_selection", "context":
-        [
-            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
-        ]
-    },
-    { "keys": ["escape"], "command": "single_last_selection", "context":
+    // { "keys": ["shift+escape"], "command": "single_selection", "context":
+    //     [
+    //         { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+    //     ]
+    // },
+    { "keys": ["shift+escape"], "command": "single_last_selection", "context":
         [
             { "key": "num_selections", "operator": "not_equal", "operand": 1 }
         ]
@@ -97,6 +97,8 @@
     // Key bindings to send tabs between open panes
     { "keys": ["super+control+shift+j"], "command": "move_to_group", "args": { "group": 0 } },
     { "keys": ["super+control+shift+k"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["super+control+shift+h"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["super+control+shift+l"], "command": "move_to_group", "args": { "group": 1 } },
 
     {
         "keys": ["ctrl+alt+w"], "command": "tidy_tabs"
