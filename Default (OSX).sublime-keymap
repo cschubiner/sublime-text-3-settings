@@ -69,7 +69,8 @@
     { "keys": ["super+v"], "command": "paste_and_indent" },
     { "keys": ["super+shift+v"], "command": "paste" },
 
-    { "keys": ["super+alt+r"], "command": "goto_definition" },
+    // { "keys": ["super+alt+r"], "command": "goto_definition" },
+    { "keys": ["super+shift+k"], "command": "goto_definition" },
 
 
     { "keys": ["super+0"], "command": "refresh_folder_list" },
@@ -92,7 +93,12 @@
     },
     {
         "keys": ["command+shift+j"],
-        "command": "prev_view_in_pane" },
+        "command": "prev_view_in_pane"
+    },
+
+    { "keys": ["super+["], "command": "next_view_in_stack" },
+    { "keys": ["super+]"], "command": "prev_view_in_stack" },
+
 
     // Key bindings to send tabs between open panes
     { "keys": ["super+control+shift+j"], "command": "move_to_group", "args": { "group": 0 } },

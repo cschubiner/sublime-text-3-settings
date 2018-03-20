@@ -5,15 +5,17 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Today (SL).tmTheme",
+	"color_scheme": "Packages/Sublime-Text-2-Color-Schemes/Today.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
+	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
+		"*.bin",
 		"*.pyo",
 		"*.exe",
 		"*.dll",
@@ -28,10 +30,14 @@
 		"*.suo",
 		"*.pdb",
 		"*.idb",
+		"*unison*",
 		".DS_Store",
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.dat",
+		"*.svg",
+		"*/sprockets_symlinked_assets/*",
 		"/Users/clay_schubiner/airlab/repos/airbnb/config/database.yml",
 		"/Users/clay_schubiner/airlab/repos/airbnb/app/views/header/.DS_Store",
 		"/Users/clay_schubiner/airlab/repos/airbnb/app/assets/javascripts/header/trips/.DS_Store",
@@ -78,18 +84,25 @@
 		"*/embed/images",
 		"*/embed/image*",
 		"*/embed/image",
-		"*/sprockets_symlinked_assets/*"
+		"*/sprockets_symlinked_assets/*",
+		"*/db_scrape_test/*",
+		"*sprockets_symlinked_assets*",
+		"sprockets_symlinked_assets",
+		"mock-payloads",
+		"build"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"FileBrowser",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
@@ -104,17 +117,28 @@
 	"match_brackets_content": true,
 	"match_brackets_square": true,
 	"match_tags": true,
+	"material_theme_small_statusbar": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		100
 	],
+	"save_on_focus_lost": false,
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": false,
 	"spell_check": false,
 	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"theme_font_lg": true,
+	"theme_primer_sidebar_font_large": true,
+	"theme_primer_sidebar_tree_small": false,
+	"theme_primer_tab_active_purple": true,
+	"theme_primer_tabs_font_large": true,
+	"theme_primer_tabs_large": true,
+	"theme_size_lg": true,
+	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
