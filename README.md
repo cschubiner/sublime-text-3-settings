@@ -22,7 +22,8 @@ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 Clone as your `User` packages:
 
 ```
-git clone https://github.com/cschubiner/sublime-text-3-settings.git User
+git clone git@github.com:cschubiner/sublime-text-3-settings.git User
+
 ```
 
 You'll also need to install `ag`
