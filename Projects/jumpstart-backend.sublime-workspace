@@ -1,0 +1,1061 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"values",
+				"values_list"
+			],
+			[
+				"event",
+				"event_details__isnull\tabc"
+			],
+			[
+				"stag",
+				"stage_name_list\tabc"
+			],
+			[
+				"Third",
+				"ThirdPartyLinkedJob\t(services.py)"
+			],
+			[
+				"ThirdPa",
+				"ThirdPartyLinkedJob"
+			],
+			[
+				"Pip",
+				"PipelineStatus\tabc"
+			],
+			[
+				"pip",
+				"pipeline_statuses_for_candidate\tabc"
+			],
+			[
+				"gender",
+				"gender_1\tabc"
+			],
+			[
+				"ethnicity",
+				"ethnicity_1\t(test_recruiter_analytics.py)"
+			],
+			[
+				"alr",
+				"already_processed_tuples\tabc"
+			],
+			[
+				"stud",
+				"student_id\tabc"
+			],
+			[
+				"role",
+				"role_id\tabc"
+			],
+			[
+				"vali",
+				"valid_role_ids\tabc"
+			],
+			[
+				"rol",
+				"role_id\tabc"
+			],
+			[
+				"pan",
+				"panelists\tabc"
+			],
+			[
+				"ema",
+				"emails_day\tabc"
+			],
+			[
+				"max",
+				"max_simul\tabc"
+			],
+			[
+				"mes",
+				"messaged_student_ids\tabc"
+			],
+			[
+				"mess",
+				"messaged_student_ids\tabc"
+			],
+			[
+				"sav",
+				"saved_student_ids\tabc"
+			],
+			[
+				"Company",
+				"CompanyRole"
+			],
+			[
+				"or",
+				"organization_id\tabc"
+			],
+			[
+				"job",
+				"job_ids\tabc"
+			],
+			[
+				"stude",
+				"students\tabc"
+			],
+			[
+				"valu",
+				"values_list\t(services.py)"
+			],
+			[
+				"Student",
+				"StudentSummary\t(models.py)"
+			],
+			[
+				"collab",
+				"collaborators"
+			],
+			[
+				"email",
+				"email_domain"
+			],
+			[
+				"doma",
+				"domain_name"
+			],
+			[
+				"domain",
+				"domain_name\tabc"
+			],
+			[
+				"re",
+				"recruiter_emails\tabc"
+			],
+			[
+				"do",
+				"domain_to_org_dict\tabc"
+			],
+			[
+				"tp",
+				"tps_qs_for_org\tabc"
+			],
+			[
+				"bad",
+				"bad_names\tabc"
+			],
+			[
+				"events",
+				"events_to_write\tabc"
+			],
+			[
+				"cur",
+				"current_phrase\tabc"
+			],
+			[
+				"third",
+				"third_party_id\t(clean_up_deleted_third_party_students.py)"
+			],
+			[
+				"ws",
+				"wsdl_endpoint\tabc"
+			],
+			[
+				"third_",
+				"third_party_type\t(clean_up_deleted_third_party_students.py)"
+			],
+			[
+				"obje",
+				"object\t(services.py)"
+			],
+			[
+				"Sch",
+				"ScheduledEmail\t(services.py)"
+			],
+			[
+				"user",
+				"user_qs\tabc"
+			],
+			[
+				"Compan",
+				"CompanyRole\t(services.py)"
+			],
+			[
+				"al",
+				"allowed_file_types\tabc"
+			],
+			[
+				"rs",
+				"rs_qs\tabc"
+			],
+			[
+				"alread",
+				"already_messaged_student_ids\tabc"
+			],
+			[
+				"us",
+				"users_with_unseen_notifications\tabc"
+			],
+			[
+				"dan",
+				"display_name\t(models.py)"
+			],
+			[
+				"depl",
+				"deploy_server\tabc"
+			],
+			[
+				"em",
+				"employee_profile\t(serializers.py)"
+			],
+			[
+				"claysc",
+				"clay_score\tabc"
+			],
+			[
+				"TRA",
+				"TRAIT_TO_CLAY_WEIGHTING\tabc"
+			],
+			[
+				"only",
+				"only_students\t(api.py)"
+			],
+			[
+				"developm",
+				"development.txt"
+			],
+			[
+				"csv",
+				"csv_student\tabc"
+			],
+			[
+				"inter",
+				"interactionfeedback\t(0007_auto_20180618_2106.py)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/touch_modified_files.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"close ",
+				"File: Close All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"so",
+				"Sort Lines"
+			],
+			[
+				"snake",
+				"Convert Case: SCREAMING_SNAKE_CASE"
+			],
+			[
+				"ssort",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"delay",
+				"DealyedSaveAll: Save all"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"js",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"un i",
+				"Permute Lines: Unique"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"path",
+				"Copy Path Relative to Project"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"finder",
+				"Finder: Open here"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"0 ",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"u",
+				"Permute Lines: Unique"
+			],
+			[
+				"delete",
+				"DeleteCurrentFile: Delete File"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"j",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"add proj",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project add ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/clayschubiner/jumpstart-backend",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday",
+		"/Users/clayschubiner/discord_online_status_notifier_bot",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/json",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/auth",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/mediauploads",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/api",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/filters",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration"
+	],
+	"file_history":
+	[
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/tasks.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/backfill_ordered_third_party_stage_names.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/greenhouse/greenhouse_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/lever/lever_services.py",
+		"/Users/clayschubiner/jumpstart-backend/.env",
+		"/Users/clayschubiner/Downloads/categories_stats.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/routers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/models.py",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/project_data/templates/env.env.j2",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/models.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_emails.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_webinars.py",
+		"/Users/clayschubiner/Downloads/role_and_student_ids.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/models.py",
+		"/Users/clayschubiner/Google Drive/Ariane Breakup/ariane breakup notes 2.txt",
+		"/Users/clayschubiner/Downloads/Everyone_2020-09-25.csv",
+		"/Users/clayschubiner/Downloads/Everyone_2020-09-16.csv",
+		"/Users/clayschubiner/Downloads/ordered stage names.txt",
+		"/Users/clayschubiner/Downloads/Everyone_2020-09-16 (2).csv",
+		"/Users/clayschubiner/Downloads/Everyone_2020-09-16 (1).csv",
+		"/Users/clayschubiner/Downloads/Everyone_2020-09-14.csv",
+		"/Users/clayschubiner/Downloads/Afrotech x Jumpstart_ Uplifting Black Talent in a World of Two Pandemics (1).csv",
+		"/Users/clayschubiner/Downloads/figma_email.html",
+		"/Users/clayschubiner/Downloads/blizzard_24hr_reminder.html",
+		"/Users/clayschubiner/Downloads/Afrotech x Jumpstart_ Uplifting Black Talent in a World of Two Pandemics.csv",
+		"/Users/clayschubiner/Downloads/raw_diversity_data_from_prod_clone.json",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/emails.py",
+		"/Users/clayschubiner/Downloads/Sales Intern & New Grad Talent.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/filters/test_get_filter_list.py",
+		"/Users/clayschubiner/zsh_plugins/clay.sh",
+		"/Users/clayschubiner/jumpstart-backend/install_development_mac.sh",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/pr-title.yml",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/project_data/templates/django.uwsgi.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/project_data/templates/django.uwsgi_feed.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/project_data/templates/django.uwsgi_polling.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/project_data/templates/django.uwsgi_questionnaire.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/project_data/templates/django.uwsgi.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/project_data/templates/django.uwsgi_feed.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/project_data/templates/django.uwsgi_polling.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/project_data/templates/django.uwsgi_questionnaire.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/requirements/common.txt",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/models.py",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/project_data/templates/django.uwsgi_janni.ini.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner/roles/nginx/templates/site.80.conf.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/nginx/templates/site.443.conf.j2",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/roles/nginx/templates/site.80.conf.j2",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_company_roles.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_current_user_api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_organization.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_origin.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_role_student.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_search.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_shared.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/matching/test_pipeline.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/activities/tests/test_activities.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/communities/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/company_role_section/tests/test_company_role_section_api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/company_role_section/tests/test_company_role_section_serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/tests/test_external_roles.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/messaging/tests/test_conversations.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/tests/test_check_in_students_command.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/tests/origin_backfill_setup.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/common/base.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_auth.py",
+		"/Users/clayschubiner/jumpstart-backend/nginx/default.conf",
+		"/Users/clayschubiner/Downloads/localhost users csv 2020.csv",
+		"/Users/clayschubiner/Downloads/local and dev names and emails for workday demo.csv",
+		"/Users/clayschubiner/jumpstart-backend/.travis.yml",
+		"/Users/clayschubiner/Downloads/users with resumes csv local dev.csv",
+		"/Users/clayschubiner/Downloads/test.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/clean_up_deleted_third_party_students.py",
+		"/Users/clayschubiner/Downloads/Tapia Conference 2020 (1).csv",
+		"/Users/clayschubiner/Downloads/Tapia Conference 2020.csv",
+		"/Users/clayschubiner/jumpstart-backend/kubernetes/docker-compose.yml",
+		"/Users/clayschubiner/jumpstart-backend/docker-compose.yml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/celery.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/tasks.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/admin.py",
+		"/Users/clayschubiner/Downloads/Gearing Up For Your Virtual Internship.csv",
+		"/Users/clayschubiner/jumpstart-backend/.sourcelevel.yml",
+		"/Users/clayschubiner/Downloads/test.html",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/api/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_events.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/daily_messages_compliance_export.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_healthcheck_view.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils/generic_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/mediauploads/api.py",
+		"/Users/clayschubiner/jumpstart-backend/settings/common.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/api.py",
+		"/Users/clayschubiner/Downloads/output.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_file_type_verification.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/models.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/rapidfire.ahk",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/flake8.yml",
+		"/Users/clayschubiner/jumpstart-backend/.idea/runConfigurations/flake8.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/event_checkin_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_referral.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/email_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/message_students_for_communities_launch.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/move.ahk",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/auth/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv4.ahk",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0080_auto_20190720_0118.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0082_auto_20190724_2139.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0083_auto_20190725_1935.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0106_auto_20200115_1947.py",
+		"/Users/clayschubiner/Dropbox/Mackup/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/no_recoil.ahk",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv3.ahk",
+		"/Users/clayschubiner/Downloads/Recruiting (1).wsdl"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 227.0,
+		"where_history":
+		[
+			"*.py,-*/migrations/*",
+			"*.py,-*/migrations/*,*",
+			"*.py,-*/migrations/*",
+			"-*/migrations/*, *.conf,*.yml,*.yaml",
+			"*.py,-*/migrations/*",
+			"*.py",
+			"*.txt",
+			"*.py",
+			"*.txt",
+			"*.tt",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")",
+			"'",
+			"/api/recruiterlytics",
+			"only_events=true",
+			"tzinfo",
+			"\": null,",
+			"datetime.datetime",
+			":20",
+			"roles_qs_",
+			"roles_qs",
+			"   \"title\": ",
+			"only_attendees =",
+			"ps://",
+			"\"",
+			"<a href=\"",
+			"mod.html",
+			".html",
+			"test_recruiter_analytics.py",
+			"FAILED",
+			"failed",
+			"accessible_to_recruiter_or_in_recruiters_org",
+			":",
+			"%",
+			"role",
+			"role_pipeline_summary_for_role",
+			"-",
+			" ",
+			"'",
+			"(",
+			"_filter_status",
+			"_filter_stage",
+			"+",
+			"lever",
+			"fetch_ordered_stages_f",
+			"fetch_ordered_job_stages",
+			"stages_url",
+			"organization",
+			"Organization",
+			"organization",
+			"new_greenhouse_stages_for_organization",
+			"job_id",
+			"/sk",
+			"ta-app-id=\"",
+			"16d",
+			"sku-id=\"",
+			"details",
+			"store/details",
+			".only_roles",
+			"job",
+			")",
+			",0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+			")",
+			"event_pipeline_summaries_for_event",
+			" = ",
+			"insights",
+			"insights/",
+			"insights",
+			"recruiterlytics",
+			"analytics/",
+			"anal",
+			"analytics/",
+			"api/analytics/",
+			"analytics/",
+			" get_is_web",
+			"'",
+			"api/analytics",
+			"'",
+			"?",
+			"https",
+			"Diversity",
+			",",
+			")",
+			"JobPipelineSummary",
+			"#",
+			"ThirdPartyStudent",
+			"ss",
+			"ethnicity",
+			")",
+			"<<<<",
+			"\n",
+			":",
+			"1",
+			"<",
+			"s/it]",
+			"91s",
+			"s/it]",
+			"<",
+			"s/it",
+			"it/s",
+			"<",
+			"skipping",
+			"role",
+			"', ",
+			"RGS: ",
+			"EXPORT_STUDENT_TO_ORGS:",
+			"EXPORT_STUDENT_TO_ORGS",
+			"EXPORT_STUDENT_TO_ORGS (removed return",
+			"dev",
+			"starts in",
+			"starts in in",
+			"starts in",
+			"’s event starts",
+			"'s event starts in",
+			"@",
+			" *",
+			"<<<",
+			"<<<<",
+			">>>>>>",
+			"<<<<<<<",
+			"<<<<<",
+			"<",
+			"season_mapping",
+			"emailss",
+			"emails_day",
+			"week",
+			"day",
+			", ",
+			", 0, 0, tzinfo=<UTC>), 'emailss'",
+			"datetime.datetime(2020, ",
+			"flight",
+			"year",
+			"day",
+			"\\",
+			"year",
+			"2021",
+			"year'",
+			"2019",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"fetch_and_update_ordered_stages_f",
+			"fetch_and_update_ordered_job_stages",
+			"role_pipeline_summaries_for_role",
+			"insights",
+			"api/recruiterlytics/",
+			"starts in",
+			" starts in",
+			"chart_tabs",
+			"Spring/Winter 2021'},\n                            {'id': 'Summer 2021', 'name': 'Summer 2021'",
+			"Spring/Winter 2021', 'name': 'Spring/Winter 2021",
+			"Fall 2020', 'name': 'Fall 2020'",
+			"Summer 2020', 'name': 'Summer 2020",
+			"buffer-size=32768",
+			"large_client_header_buffers 12",
+			"1024k",
+			"",
+			"set_student_onboarding_complete_hour",
+			"email_attempted_to_send",
+			"invited_to_jumpstart_by_organization",
+			"not_invited_to_jumpstart_by_organization",
+			"jedi-upgrade",
+			"jedi_upgrade",
+			"JediUpgrade",
+			"token_string",
+			"EmailVerificationToken",
+			"ClayLovesChocolatemilk27!",
+			"third_party_workflow_step_names_for_this_job_set",
+			"existing_workday_step_names_for_deduping",
+			"third_party_job_application",
+			"get_greenhouse_third_party_job_application_model_from_application_json",
+			"ThirdPartyJobApplication",
+			"job_application_id",
+			"recruiting_wsdl_endpoint",
+			"system_integration_password",
+			"system_integration_username",
+			"fetch_and_save_stages_and_dispositions_for_workday_job_id",
+			"stages_and_dispositions",
+			"should_generate_template_if_pytest",
+			"enqueue_event_custom_email_template_to_students",
+			"should_send_from_pytest",
+			"enqueue_event_custom_email_template_to_students",
+			"position_body_above_role_details",
+			"fallback_banner_image_s3_path",
+			"dev-emails@jumpstart.me",
+			"clay+bugbash@jumpstart.me",
+			"emails_on_jumpstart_but_not_in_role",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 81.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 150.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jumpstart-backend.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".env",
+				"jumpstart-backend/.env"
+			],
+			[
+				"env",
+				"jumpstart-backend/provisioner/roles/project_data/templates/env.env.j2"
+			],
+			[
+				"jumpstart/integrations/tasks.py",
+				"jumpstart-backend/jumpstart/integrations/tasks.py"
+			],
+			[
+				"jumpstart/recruiter_analytics/api.py",
+				"jumpstart-backend/jumpstart/recruiter_analytics/api.py"
+			],
+			[
+				"useremails",
+				"users/emails.py"
+			],
+			[
+				"install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"prtit",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"comm",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"travi",
+				"jumpstart-backend/.travis.yml"
+			],
+			[
+				"jumpstart/company_roles/company_role_section/tests/test_company_role_section_api.py",
+				"jumpstart-backend/jumpstart/company_roles/company_role_section/tests/test_company_role_section_api.py"
+			],
+			[
+				"docker",
+				"jumpstart-backend/kubernetes/docker-compose.yml"
+			],
+			[
+				"compose",
+				"jumpstart-backend/docker-compose.yml"
+			],
+			[
+				".sour",
+				"jumpstart-backend/.sourcelevel.yml"
+			],
+			[
+				"tests/integration/test_auth.py",
+				"tests/integration/test_auth.py"
+			],
+			[
+				"flake8",
+				"jumpstart-backend/.github/workflows/flake8.yml"
+			],
+			[
+				"fake8",
+				"jumpstart-backend/.idea/runConfigurations/flake8.xml"
+			],
+			[
+				"fab",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"prtitl",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"requirements/common.txt",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"read",
+				"jumpstart-backend/README.md"
+			],
+			[
+				"atswor",
+				"jumpstart-backend/docs/api/ats_endpoints_workday.md"
+			],
+			[
+				"ats",
+				"jumpstart-backend/docs/api/ats_endpoints.md"
+			],
+			[
+				"commont",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"travis",
+				"jumpstart-backend/.travis.yml"
+			],
+			[
+				"deve",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"common",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"fabf",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"dev",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"endpoint",
+				"jumpstart-backend/docs/api/endpoints.md"
+			],
+			[
+				"setup",
+				"jumpstart-backend/setup.cfg"
+			],
+			[
+				"os install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"csvapi",
+				"jumpstart-backend/jumpstart/csv_imports/api.py"
+			],
+			[
+				"import",
+				"jumpstart-backend/tests/integration/test_csv_import.py"
+			],
+			[
+				"testyml",
+				"jumpstart-backend/.github/workflows/test.yml"
+			],
+			[
+				"test",
+				"company_roles/tests.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

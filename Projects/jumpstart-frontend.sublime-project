@@ -2,17 +2,11 @@
 	"folders":
 	[
 		{
-			"binary_file_patterns":
-			[
-			],
-			"file_exclude_patterns":
-			[
-			],
-			"folder_exclude_patterns":
-			[
-			],
 			"name": "jumpstart-frontend",
-			"path": "~/jumpstart-frontend"
+			"path": "/Users/clayschubiner/jumpstart-frontend"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration"
 		}
 	]
 }

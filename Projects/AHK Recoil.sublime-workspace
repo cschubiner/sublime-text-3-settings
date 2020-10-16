@@ -1,0 +1,943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wo",
+				"work_email\tabc"
+			],
+			[
+				"bytes",
+				"bytes_data\tabc"
+			],
+			[
+				"mag",
+				"magic_result\tabc"
+			],
+			[
+				"Enab",
+				"EnabledWeapon\tabc"
+			],
+			[
+				"rec",
+				"recruiter_user\tabc"
+			],
+			[
+				"ans",
+				"answers_qs\tabc"
+			],
+			[
+				"firs",
+				"first_name\tabc"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"csv",
+				"csv_student\tabc"
+			],
+			[
+				"alread",
+				"already_messaged_student_ids\tabc"
+			],
+			[
+				"us",
+				"users_with_unseen_notifications\tabc"
+			],
+			[
+				"dan",
+				"display_name\t(models.py)"
+			],
+			[
+				"Third",
+				"ThirdPartyStage\t(api.py)"
+			],
+			[
+				"depl",
+				"deploy_server\tabc"
+			],
+			[
+				"em",
+				"employee_profile\t(serializers.py)"
+			],
+			[
+				"third",
+				"third_party_job\t(serializers.py)"
+			],
+			[
+				"claysc",
+				"clay_score\tabc"
+			],
+			[
+				"TRA",
+				"TRAIT_TO_CLAY_WEIGHTING\tabc"
+			],
+			[
+				"only",
+				"only_students\t(api.py)"
+			],
+			[
+				"developm",
+				"development.txt"
+			],
+			[
+				"inter",
+				"interactionfeedback\t(0007_auto_20180618_2106.py)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+			"settings":
+			{
+				"buffer_size": 37984,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/api.py",
+			"settings":
+			{
+				"buffer_size": 21496,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+			"settings":
+			{
+				"buffer_size": 45560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "def make_email_into_active_and_paid_recruiter(user):\n    work_email = user.email\n    if (\n        user.is_employee\n        and user.account_state == User.STATE_APPROVED\n        and user.is_active\n    ):\n        return True\n    if '@' not in work_email:\n        assert False\n    if '@' == work_email[-1]:\n        assert False\n    domain_name = work_email.split('@')[1]\n    organization = Organization.objects.filter(email_domain=domain_name).first()\n    if not organization:\n        assert False\n    assert not user.is_employee\n    invite = UserInvitation.objects.filter(email=work_email).first()\n    if not invite:\n        invite = UserInvitation(\n            email=work_email, created_by=None, is_recruiter=True, is_owner=False\n        )\n        invite.save()\n    if user.has_recruiter_community_profile:\n        upgrade_prospect_to_jedi(user, work_email, invite.id)\n    else:\n        employee_profile_data = {}\n        employee_profile_data['designation'] = 'University Recruiter'\n        employee_profile_data['about'] = \"\"\n        create_employee_profile_for_user(\n            user, work_email, employee_profile_data, invite.id\n        )\n    user.refresh_from_db()\n    user.account_state = User.STATE_APPROVED\n    user.is_active = True\n    user.account_verified = True\n    user.save()\n    user.refresh_from_db()\n    assert user.is_employee\n    if not user.employee_profile.organization:\n        user.employee_profile.organization = organization\n        user.employee_profile.save()\n        user.employee_profile.refresh_from_db()\n    assert organization.id == user.employee_profile.organization.id\n    return True\n\nuser = User.objects.get(email='mallory.foutch@policygenius.com')\nuser.refresh_from_db()\nmake_email_into_active_and_paid_recruiter(user)",
+			"settings":
+			{
+				"buffer_size": 1754,
+				"line_ending": "Unix",
+				"name": "def make_email_into_active_and_paid_recruiter(user"
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/Dropbox/AHK Recoil/recoil_options.ini",
+			"settings":
+			{
+				"buffer_size": 746,
+				"encoding": "UTF-16 LE with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"1 t",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"puni",
+				"Permute Lines: Unique"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"case",
+				"Convert Case: separate␣words"
+			],
+			[
+				"add pr",
+				"Project Manager: Add New Project"
+			],
+			[
+				"path",
+				"Copy Path Relative to Project"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snake",
+				"Convert Case: snake_case"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"j",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"delete",
+				"DeleteCurrentFile: Delete File"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"add proj",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project add ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/clayschubiner/Dropbox/AHK Recoil",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils",
+		"/Users/clayschubiner/call-of-duty-warzone-tracker",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration"
+	],
+	"file_history":
+	[
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+		"/Users/clayschubiner/Downloads/email.html",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/jeff clay 28th birthday town deception mystery.txt",
+		"/untitled",
+		"/Users/clayschubiner/Downloads/All Responses.csv",
+		"/Users/clayschubiner/Downloads/test 2.txt",
+		"/Users/clayschubiner/Downloads/new_test 5/test.txt",
+		"/Users/clayschubiner/Downloads/new_test 4/test.txt",
+		"/Users/clayschubiner/Downloads/new_test/test.txt",
+		"/Users/clayschubiner/Downloads/output 2.csv",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoil_options.ini",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/templates/email/templatetags/js_tags.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/company_role_section/tests/test_company_role_section_api.py",
+		"/Users/clayschubiner/Downloads/prospects and jedis.txt",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/constants.py",
+		"/Users/clayschubiner/Downloads/resource.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627-90.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627-80.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/services.py",
+		"/Users/clayschubiner/Downloads/jUMPSTART CSV.csv",
+		"/Users/clayschubiner/Downloads/jumpstart_csv_repasted.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/install_development_mac.sh",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils/generic_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_file_type_verification.py",
+		"/Users/clayschubiner/Downloads/output.json",
+		"/Users/clayschubiner/zsh_plugins/clay.sh",
+		"/Users/clayschubiner/call-of-duty-warzone-tracker/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/user_event_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/constants.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/move.ahk",
+		"/Users/clayschubiner/.ssh/config",
+		"/Users/clayschubiner/call-of-duty-warzone-tracker/data_file.csv",
+		"/Users/clayschubiner/Downloads/output_formatted.json",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/event_checkin_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_auth.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_company_roles.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_referral.py",
+		"/Users/clayschubiner/jumpstart-backend/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/email_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/message_students_for_communities_launch.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/models.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/auth/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv4.ahk",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/flake8.yml",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_current_user_api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0080_auto_20190720_0118.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0082_auto_20190724_2139.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0083_auto_20190725_1935.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0106_auto_20200115_1947.py",
+		"/Users/clayschubiner/Dropbox/Mackup/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/no_recoil.ahk",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv3.ahk",
+		"/Users/clayschubiner/Downloads/Recruiting (1).wsdl",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_workday.py",
+		"/Users/clayschubiner/jumpstart-backend/.env",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/json/workday_responses.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/factories.py",
+		"/Users/clayschubiner/jumpstart-backend/.git/rebase-merge/git-rebase-todo",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/greenhouse/greenhouse_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/lever/lever_services.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_workday_upload.py",
+		"/Users/clayschubiner/jumpstart-backend/fabfile.py",
+		"/Users/clayschubiner/jumpstart-backend/workday_soap.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/models.py",
+		"/Users/clayschubiner/.ssh/known_hosts",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/site.yml",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/huge_dev_csv.csv",
+		"/Users/clayschubiner/Downloads/dev_csv_81.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_greenhouse.py",
+		"/Users/clayschubiner/Downloads/Student_Recruiting.wsdl",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0052_auto_20190827_1712.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0087_auto_20200410_0005.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_users.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_filters.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_shared.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/fetch_new_ats_candidates_command.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0051_auto_20190827_1705.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/change_origin_for_stripe.py",
+		"/Users/clayschubiner/jumpstart-backend/requirements/common.txt",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/pr-title.yml",
+		"/Users/clayschubiner/discord_online_status_notifier_bot/bot.py",
+		"/Users/clayschubiner/jumpstart-backend/README.md",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints_workday.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/migrations/0079_auto_20200331_2334.py",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/tasks.py",
+		"/Users/clayschubiner/life_planner/.gitignore",
+		"/Users/clayschubiner/life_planner/evaluator.py",
+		"/Users/clayschubiner/Downloads/csv_of_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/csv_of_less_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/recruiting_api_swagger.json",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/no_email_column.csv",
+		"/Users/clayschubiner/Downloads/test_email_js.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/csv_imports/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_csv_import.py",
+		"/Users/clayschubiner/jumpstart-backend/query.sql",
+		"/Users/clayschubiner/jumpstart-backend/analyze.json",
+		"/Users/clayschubiner/Dropbox/Robinhood Transactions/transactions to sell.txt",
+		"/Users/clayschubiner/jumpstart-backend/.gitignore",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_custom_questions.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/api.py",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_5000.csv",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_100.csv",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/review-request-notifier.yml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/celery.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/models.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_events.py",
+		"/Users/clayschubiner/Downloads/csv-clayemailtest.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/emails.py"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"OutputVar",
+			"akimbo",
+			"CRclose",
+			"MG34",
+			"mg34",
+			"MG34",
+			"mg34",
+			"MG34",
+			"[]",
+			"name",
+			"assert",
+			"return",
+			"email",
+			"return",
+			"m4",
+			"M4",
+			"m4",
+			"M4",
+			"m4",
+			"M4",
+			"UseM4",
+			"M4",
+			"m4",
+			"M4",
+			"KiloVLK",
+			"UseKiloVLK",
+			"KiloVLK",
+			"UseKiloVLK",
+			"CR6close",
+			"-10+ ",
+			"Recoil",
+			"-10+ ",
+			"-10 + ",
+			"Recoil",
+			"CR6",
+			"cr6",
+			"CR6",
+			"cr6",
+			"CR6",
+			"cr6",
+			"columns",
+			"hover_lines",
+			"_rows",
+			"qa",
+			"dev",
+			"Bruen",
+			"dev",
+			"Send {lbutton",
+			"Bruen",
+			"UseRytec",
+			"Bruen",
+			"mp4",
+			"RecoilReturn",
+			"M4",
+			"m4",
+			"M4",
+			"m4",
+			"M4",
+			"m4",
+			">>>",
+			",",
+			"Kilo",
+			"il",
+			"Kilo",
+			"kilo",
+			"lenneedle",
+			"len(haystack)",
+			"len(needle)",
+			"Recoil",
+			"M4",
+			"m4",
+			"M4",
+			"m4",
+			"M4",
+			"Recoil",
+			"0.5",
+			"-3",
+			"Recoil",
+			"M4",
+			"m4",
+			"4",
+			"M4",
+			"m4",
+			"M4",
+			"4",
+			"M4",
+			"4",
+			"M4",
+			"0.8",
+			"1.4",
+			"1.8",
+			"1.2",
+			"0.4",
+			"62",
+			"fireTime * 0.6",
+			"RecoilReturn",
+			"* 0.4",
+			"EnableRa",
+			"send.*lbutt",
+			"includeReturn",
+			"UseFALSlow",
+			"FAL",
+			"fal",
+			"FAL",
+			"fal",
+			"LabelFAL",
+			"fa",
+			"FA",
+			"fal",
+			"FAL",
+			"al",
+			"F",
+			"FAL",
+			"True",
+			"False",
+			"APPROVED",
+			"<<<<",
+			"<<<",
+			"RecoilReturn",
+			"’",
+			"”",
+			"“",
+			"‘",
+			"Recoil",
+			"3, f",
+			"3,",
+			"Recoil",
+			"MP5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10666,
+								10666
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1601277600.86,
+							"syntax": "Packages/AutoHotkey/AutoHotkey.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11686.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/api.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1598158876.28,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3413.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1598037520.99,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1538.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1752,
+								1752
+							]
+						],
+						"settings":
+						{
+							"auto_name": "def make_email_into_active_and_paid_recruiter(user",
+							"recent_file_switcher: timestamp": 1598042434.37,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/clayschubiner/Dropbox/AHK Recoil/recoil_options.ini",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1597866712.76,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 55.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AHK Recoil.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".env",
+				"jumpstart-backend/.env"
+			],
+			[
+				"fab",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"prtitl",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"requirements/common.txt",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"prtit",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"read",
+				"jumpstart-backend/README.md"
+			],
+			[
+				"atswor",
+				"jumpstart-backend/docs/api/ats_endpoints_workday.md"
+			],
+			[
+				"ats",
+				"jumpstart-backend/docs/api/ats_endpoints.md"
+			],
+			[
+				"comm",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"commont",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"travis",
+				"jumpstart-backend/.travis.yml"
+			],
+			[
+				"install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"deve",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"common",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"fabf",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"dev",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"endpoint",
+				"jumpstart-backend/docs/api/endpoints.md"
+			],
+			[
+				"setup",
+				"jumpstart-backend/setup.cfg"
+			],
+			[
+				"os install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"csvapi",
+				"jumpstart-backend/jumpstart/csv_imports/api.py"
+			],
+			[
+				"import",
+				"jumpstart-backend/tests/integration/test_csv_import.py"
+			],
+			[
+				"testyml",
+				"jumpstart-backend/.github/workflows/test.yml"
+			],
+			[
+				"test",
+				"company_roles/tests.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

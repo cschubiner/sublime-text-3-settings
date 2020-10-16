@@ -1,2 +1,1438 @@
 {
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"el",
+				"elapsed_time\tabc"
+			],
+			[
+				"start",
+				"start_time\tabc"
+			],
+			[
+				"tpj",
+				"tpjids\tabc"
+			],
+			[
+				"allow",
+				"allowed_users_qs\tabc"
+			],
+			[
+				"first",
+				"first_name\tabc"
+			],
+			[
+				"email",
+				"email_set\tabc"
+			],
+			[
+				"resume",
+				"resume_binary\tabc"
+			],
+			[
+				"data",
+				"data_flat\tabc"
+			],
+			[
+				"pay",
+				"payload_body_str\tabc"
+			],
+			[
+				"com",
+				"comment\tabc"
+			],
+			[
+				"conte",
+				"content_type_id\tabc"
+			],
+			[
+				"rs",
+				"rs_emails_not_in_tps\tabc"
+			],
+			[
+				"rs_",
+				"rs_emails\tabc"
+			],
+			[
+				"third",
+				"third_party_student_id\tabc"
+			],
+			[
+				"tps",
+				"tps_emails\tabc"
+			],
+			[
+				"thirdjo",
+				"third_party_job_id\tabc"
+			],
+			[
+				"third_",
+				"third_party_job_id\tabc"
+			],
+			[
+				"third_party_student",
+				"third_party_student_id\tabc"
+			],
+			[
+				"third_p",
+				"third_party_created\tabc"
+			],
+			[
+				"Rol",
+				"RoleStudent\tabc"
+			],
+			[
+				"Third",
+				"ThirdPartyLinkedJob\t(workday_services.py)"
+			],
+			[
+				"Company",
+				"CompanyRole\t(workday_services.py)"
+			],
+			[
+				"third_party",
+				"third_party_student\t(workday_services.py)"
+			],
+			[
+				"file",
+				"filename\tabc"
+			],
+			[
+				"can",
+				"candidate_id\tabc"
+			],
+			[
+				"work",
+				"workday_request\t(workday_services.py)"
+			],
+			[
+				"inter",
+				"interactionfeedback\t(0007_auto_20180618_2106.py)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 1372 files for \"backend.\" (regex)\n\n/Users/clayschubiner/jumpstart-frontend/build/environment.js:\n   12   */\n   13  const STANDARD_API_MAPPINGS = Object.freeze({\n   14:     production: 'https://backend.jumpstart.me/api/',\n   15      qa: 'https://api-qa.jumpstart.me/api/',\n   16      develop: 'https://develop.jumpstart.me/api/',\n\n/Users/clayschubiner/jumpstart-frontend/build/sitemapCreator.js:\n   12   */\n   13  const fetchSitemap = () => {\n   14:     printStatus({ message: 'Fetching sitemap from backend...' })\n   15      try {\n   16          // Get the url routes that need to be added to Google\n   17          const response = request(\n   18              'GET',\n   19:             'https://backend.jumpstart.me/api/jumpstart/json-sitemap-f7KZYcsvEzTrmcSUdCgRtRAwRNeaVU5O'\n   20          )\n   21          const parsedBody = JSON.parse(response.getBody('utf8'))\n   22:         printStatus({ message: 'Parsed sitemap from backend', success: true })\n   23          return parsedBody\n   24      } catch (error) {\n   ..\n   49   */\n   50  const generateXMLFromLinkData = (linkData) => {\n   51:     printStatus({ message: 'Generating XML sitemap using backend data...' })\n   52      let out = '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n'\n   53      out += '<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n'\n   ..\n   84      out += '</urlset>'\n   85      printStatus({\n   86:         message: 'Generated XML sitemap from backend data',\n   87          success: true,\n   88      })\n   ..\n  105      }\n  106  \n  107:     // Try to parse a backend call to grab the sitemap\n  108      const staticLinkData = fetchSitemap()\n  109      const dynamicSitemap = generateXMLFromLinkData(staticLinkData)\n\n/Users/clayschubiner/jumpstart-frontend/client/API/ats-integrations.js:\n   64  \n   65  /**\n   66:  * Returns an HTML preview of an email as rendered by the backend. Response is pure HTML to be rendered.\n   67   * @param  {String} body                The string to render (URL encoded for the email)\n   68   * @param  {String} type                The type of email render to request\n   ..\n  137  /**\n  138   *\n  139:  * Returns an HTML preview of an ATS email as rendered by the backend. Response is pure HTML to be rendered.\n  140   * @param  {String} body                The string to render (URL encoded for the email)\n  141   * @param  {String} button_text         The CTA button text\n\n/Users/clayschubiner/jumpstart-frontend/client/API/matches.js:\n  113       * across pages (pipeline tabs vs search vs ats, etc) is different.\n  114       * It picks and chooses specifically which params to include in the request.\n  115:      * https://github.com/Jumpstart-Me/jumpstart-backend/blob/develop/docs/api/endpoints.md\n  116       * has documentation on the request formats.\n  117       */\n  ...\n  158   * @param {String} action - 'invite' or 'message'\n  159   * @param {String} pipeline - 'all', 'imported', or 'applicants', represents which pipeline in the role we're requesting for\n  160:  * @param {Number} shouldBeCount - used in backend to validate that the expected number of users to execute the action on is correct\n  161   *\n  162   * Optional params:\n  163   * @param {Array} roleStudentIds - list of role student ids to get # of eligible users for a given action, otherwise assumes it is all users in the pipeline\n  164   * @param {Array} roleStudentEmails - list of role student emails to get # of eligible users for a given action, otherwise assumes it is all users in the pipeline\n  165:  * @param {String} filters - flattened filters object to send to backend (not JSON), otherwise assumes no filters applied\n  166   * @param {Boolean} getCountOnly - if true, does not do the batch action but returns # of eligible users to perform the given batch action on\n  167   *\n\n/Users/clayschubiner/jumpstart-frontend/client/API/tags.js:\n    2  \n    3  /**\n    4:  * Allows filtering on all tags from backend. Pass a `searchTerm`. This returns raw results.\n    5   *\n    6   * @param   {String}    searchTerm  The term we'd like to filter by\n    .\n   15  \n   16  /**\n   17:  * Allows filtering on all tags from backend. Pass a `searchTerm`. This returns autocomplete results, formatted for typeahead\n   18   * results (like from filters)\n   19   *\n   ..\n   35  \n   36  /**\n   37:  * Allows filtering on all tags from backend. Pass a `searchTerm` and use Fuse.js to highlight the\n   38   * fuzzy-matched results to find tags.\n   39   *\n   ..\n   55  \n   56  /**\n   57:  * Consistently maps data to a backend-formatted payload for create/update/delete\n   58   *\n   59   * @param   {Array} candidates  An array of candidate objects, that each have at minimum `id`\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modals/AddOrManageTags.vue:\n  203        isFirstRequest: true,\n  204  \n  205:       /** Raw list of tags from the backend */\n  206        tagOptions: [],\n  207  \n\n/Users/clayschubiner/jumpstart-frontend/client/components/modals/MassMessageConfirm.vue:\n  197      },\n  198      /**\n  199:      * Fires backend request to either old batch actions endpoint or new\n  200       *   role student endpoint to send the messages.\n  201       */\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modals/ats-integrations/InviteCandidates.vue:\n  347      },\n  348      /**\n  349:      * Fires backend request to send the invites.\n  350       */\n  351      async sendInvites() {\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modals/communities/CommunityCreationComplete.vue:\n  159      },\n  160      formattedInvites() {\n  161:       // Filter out invalid emails and reformat shape of objects to pass into backend.\n  162        return _.filter(\n  163          _.map(this.invites, (invite) => {\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modals/communities/CommunityInvite.vue:\n   35      ]),\n   36      formatInvites(invites) {\n   37:       // Filter out invalid emails and reformat shape of objects to pass into backend.\n   38        return _.filter(\n   39          _.map(invites, (invite) => {\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/ThreadPost.vue:\n   95      backRouteParams: VueTypes.object.def({}),\n   96  \n   97:     /** These props are from the thread backend object */\n   98      publicId: VueTypes.string.isRequired,\n   99      // Author info (differs depending on if anonymous, user, or pseudonym)\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/AcceptCommunityInvite.test.js:\n   10                  firstName: 'Jessica',\n   11                  profilePicture:\n   12:                     'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/r50R_LiASQOvBwMp2R2bpA-thumbnail-200x200-70.jpeg',\n   13              },\n   14              communityId: 'id',\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/CommentComposer.test.js:\n   20                          userFullName: 'Johnny Bravo',\n   21                          userAvatar:\n   22:                             'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png',\n   23                      })\n   24                  },\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/ThreadContent.test.js:\n   29              ...defaultProps,\n   30              imageUrl:\n   31:                 'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/U6WyP5TTSqmdWvMccbB0_g-thumbnail-200x200.png',\n   32          })\n   33          expect(wrapper.vm.$el).toMatchSnapshot()\n   ..\n   38              ...defaultProps,\n   39              videoUrl:\n   40:                 'https://jumpstart-static.s3.amazonaws.com/backend/mediauploads/media/eLDCj1XcR6GTHex4BwFyRQ.mp4',\n   41          })\n   42          expect(wrapper.vm.$el).toMatchSnapshot()\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/ThreadContextRow.test.js:\n   11                  author: {\n   12                      profilePicture:\n   13:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/wwTV8yLDROaQq6TOrNuKRg-thumbnail-200x200-70.jpg',\n   14                      firstName: 'Dylan',\n   15                      lastName: 'Gattey',\n   ..\n   42                  author: {\n   43                      profilePicture:\n   44:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/wwTV8yLDROaQq6TOrNuKRg-thumbnail-200x200-70.jpg',\n   45                      firstName: 'Alex',\n   46                      lastName: 'Kim',\n   ..\n   73                  author: {\n   74                      profilePicture:\n   75:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/wwTV8yLDROaQq6TOrNuKRg-thumbnail-200x200-70.jpg',\n   76                      firstName: 'Alex',\n   77                      lastName: 'Kim',\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/ThreadDropdownSelector.test.js:\n    8              title: 'Option 1',\n    9              image:\n   10:                 'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png',\n   11          },\n   12      ],\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/__snapshots__/ThreadContent.test.js.snap:\n   31    <img\n   32      class=\"thread-post__image\"\n   33:     src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/U6WyP5TTSqmdWvMccbB0_g-thumbnail-200x200.png\"\n   34    />\n   35  </div>\n   ..\n   67      class=\"thread-post__video\"\n   68      controls=\"controls\"\n   69:     src=\"https://jumpstart-static.s3.amazonaws.com/backend/mediauploads/media/eLDCj1XcR6GTHex4BwFyRQ.mp4\"\n   70    />\n   71  </div>\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/communities/__tests__/__snapshots__/ThreadDropdownSelector.test.js.snap:\n   51          <img\n   52            class=\"thread-dropdown__image\"\n   53:           src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png\"\n   54          />\n   55           \n   ..\n  121          <img\n  122            class=\"thread-dropdown__image\"\n  123:           src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png\"\n  124          />\n  125           \n  ...\n  158        <img\n  159          class=\"thread-dropdown__image\"\n  160:         src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png\"\n  161        />\n  162         \n  ...\n  197          <img\n  198            class=\"thread-dropdown__image\"\n  199:           src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png\"\n  200          />\n  201           \n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/filters/FilterDropdown.vue:\n  177  \n  178      /**\n  179:      * Flags to determine what to display to the user, driven by the backend.\n  180       */\n  181      displayOptions: VueTypes.shape({\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/form/EditorMediaPreview.vue:\n   89    methods: {\n   90      /**\n   91:      * Upload the media file to the backend.\n   92       * This is called whenever a user inputs a new file.\n   93       */\n   ..\n  126          this.onRemoveLink()\n  127  \n  128:         // We expect backend to send down 404 if it's a bad link.\n  129          if (error.status !== 404) {\n  130            throw error\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/matchesTable/ExportToAtsDropdown.vue:\n    7          :key=\"job.renderKey\"\n    8          :title=\"job.title\"\n    9:         @click.native=\"selectJob(job.atsBackendId)\"\n   10        />\n   11      </template>\n   ..\n   26          :key=\"job.renderKey\"\n   27          :title=\"job.title\"\n   28:         @click.native=\"selectJob(job.atsBackendId)\"\n   29        />\n   30      </template>\n   ..\n  113            return {\n  114              ...job,\n  115:             atsBackendId: job[this.connectedAtsIdField],\n  116:             renderKey: `${job.title}-${job.atsBackendId}`,\n  117            }\n  118          })\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/messaging/__tests__/__snapshots__/IdentitySelection.test.js.snap:\n   10      <img\n   11        class=\"identity-selection__image\"\n   12:       src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png\"\n   13      />\n   14       \n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/MatchesTable.vue:\n   11        :mobileCards=\"false\"\n   12        paginated\n   13:       backendPagination\n   14        :total=\"resultsCount\"\n   15        :perPage=\"30\"\n   ..\n   17        checkable\n   18        :checkedRows.sync=\"$store.state.matches.selectedMatches\"\n   19:       backendSorting\n   20        :defaultSort=\"sortField\"\n   21        :defaultSortDirection=\"sortOrder\"\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/RoleForm.vue:\n  619      /**\n  620       * Updates the form title with the synced job title if it’s empty,\n  621:      * and same with the description after loading from the ATS backend.\n  622       * @param  {Array} oldFormFields The previous form fields before this function was called from a watcher\n  623       * @param  {Array} newFormFields The current value of the form fields when the function is called\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/__tests__/__snapshots__/MatchesTable.test.js.snap:\n    3  exports[`MatchesTable renders 1`] = `\n    4  <div class=\"matches__table\">\n    5:   <b-table-stub data=\"\" paginated=\"\" backendpagination=\"\" perpage=\"30\" currentpage=\"1\" checkable=\"\" backendsorting=\"\" defaultsort=\"updated\" defaultsortdirection=\"desc\"> <template></template></b-table-stub>\n    6  </div>\n    7  `;\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/dashboard/DashboardItem.vue:\n  101      },\n  102      /**\n  103:      * When we create sections locally, we name the field `visualizationType`. Backend passes back snake_case `visualization_type`. This pulls out either.\n  104       *\n  105       * @return  {Enum}  The visualization type we should use\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/dashboard/__tests__/DashboardBarChart.test.js:\n    6          color: '#3A96C4',\n    7          image_url:\n    8:             'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/questionnaires/questionoptions/myBLZ-42TCWhdJwMHKssnw-thumbnail-60x60.png',\n    9:         title: 'Backend',\n   10          value: 558,\n   11      },\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/dashboard/__tests__/__snapshots__/DashboardBarChart.test.js.snap:\n   15        >\n   16          <img\n   17:           src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/questionnaires/questionoptions/myBLZ-42TCWhdJwMHKssnw-thumbnail-60x60.png\"\n   18          />\n   19        </span>\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/events/EventPreviewCard.vue:\n   69    props: {\n   70      /**\n   71:      * Subset of the big role object received from the backend.\n   72       *\n   73       * We parse only the properties needed for displaying on the card\n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/rsvpCheckInOrApply/__tests__/__snapshots__/RoleContextBox.test.js.snap:\n   28          <img\n   29            class=\"role-context-box__company-logo\"\n   30:           src=\"https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/wQ414VoASnORmypFPfTrzQ.png\"\n   31          />\n   32           \n\n/Users/clayschubiner/jumpstart-frontend/client/components/modules/similarCandidates/__tests__/__snapshots__/SimilarCandidates.test.js.snap:\n   49      id=\"574f4d7b-9fed-4623-a872-0dea19ce122c\"\n   50      name=\"Henning Post\"\n   51:     profilepicture=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/ZrJIzDNYRGGCns_3eDnp8w-thumbnail-200x200-70.jpg\"\n   52      school=\"Kalamazoo College\"\n   53    />\n   ..\n   68      id=\"4ba7eabb-ad12-4051-8afd-04a76ad04142\"\n   69      name=\"Sophia D\"\n   70:     profilepicture=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/1cltwXPSS7aKagUuGk9ZVg-thumbnail-200x200.png\"\n   71      school=\"Emory University\"\n   72    />\n\n/Users/clayschubiner/jumpstart-frontend/client/models/home/jobCardInfo.js:\n   53      {\n   54          imageURL: `${baseAssetURL}/student/company-icons/flexport_icon.png`,\n   55:         title: 'Backend Engineer - New Grad',\n   56          company: 'Flexport',\n   57          location: 'Seattle, WA',\n\n/Users/clayschubiner/jumpstart-frontend/client/models/recruiter/interactions.js:\n    5  /**\n    6   * InteractionType Enum\n    7:  * This list reflects our (backend-defined) recruiter interaction types\n    8   */\n    9  export const InteractionType = Object.freeze({\n\n/Users/clayschubiner/jumpstart-frontend/client/models/registration/invite-flow.js:\n    1  /**\n    2:  * Enum for the invite_email_type that we can expect from the backend.\n    3   */\n    4  export const inviteTypes = {\n\n/Users/clayschubiner/jumpstart-frontend/client/services/emails.js:\n    4  \n    5  /**\n    6:  * Enum for the custom email type that the backend expects.\n    7   */\n    8  export const customEmailType = {\n    .\n   13  \n   14  /**\n   15:  * Enum for the recipient types that the backend expects.\n   16   */\n   17  export const emailRecipientsType = {\n   ..\n   92  \n   93  /**\n   94:  * Maps email type to the recipient enum that the backend expects.\n   95   * @param {String} emailType - customEmailType enum\n   96   * @return {String} - emailRecipientsType enum\n\n/Users/clayschubiner/jumpstart-frontend/client/services/roles.js:\n   52  /**\n   53   * Modifies the event data by reference and reverts the time zone offset that we apply to the\n   54:  * event start and end dates before being stored in the backend.\n   55   *\n   56   * Our timestamps are stored in ISO format in our database along with the user selected time zone.\n   ..\n  375  \n  376      // This is necessary because we store the job place data under 'locations'\n  377:     // In the backend, but the form field key in the store model is 'location'.\n  378      data.locations = data.location\n  379  \n  ...\n  547   * Grabs a subset of the big role object to display on the preview cards.\n  548   *\n  549:  * The properties are snake_case because they come directly from the backend.\n  550   *\n  551   * @return {Object}\n\n/Users/clayschubiner/jumpstart-frontend/client/services/__tests__/authToken.test.js:\n   26  \n   27      test('AUTH_TOKEN_NAME', () => {\n   28:         // If this changes, backend needs to also change what they send\n   29          expect(AUTH_TOKEN_NAME).toEqual('auth_token')\n   30      })\n\n/Users/clayschubiner/jumpstart-frontend/client/services/__tests__/autocomplete.test.js:\n   34          major_1_2: null,\n   35          profile_picture_url:\n   36:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/xQyeyqU7Q8yivxUxUn8NxQ.jpg',\n   37          resume_content: '',\n   38          skills_1: 'Java',\n\n/Users/clayschubiner/jumpstart-frontend/client/services/__tests__/helpers.test.js:\n   29      test('urlQueryModifier', () => {\n   30          const urlWithoutQueryToChange =\n   31:             'https://backend.jumpstart.me/api/feed?type=job'\n   32          const urlWithQueryToChange =\n   33:             'https://backend.jumpstart.me/api/feed?type=job&page_size=5'\n   34          const expectedUrlValue =\n   35:             'https://backend.jumpstart.me/api/feed?type=job&page_size=10'\n   36  \n   37          const queryReplacementObject = (url) => {\n\n/Users/clayschubiner/jumpstart-frontend/client/store/ats-integrations.js:\n   74       *\n   75       * May be full user objects or can also just be objects with only an id or email.\n   76:      * They may or may not actually be eligible to be invited. Backend will filter out the users that are not eligible.\n   77       * @type {Array}\n   78       */\n   ..\n  816          )\n  817  \n  818:         // Update optimistically inviting matches from id's returned by backend.\n  819          // It will display \"Invite sent\" in the table.\n  820          dispatch(\n\n/Users/clayschubiner/jumpstart-frontend/client/store/communities.js:\n  422          if (!hydrated) return null\n  423  \n  424:         // If data is fully loaded, add on the \"See all communities\" button. If empty array, keep empty due to backend error.\n  425          return hydrated?.length > 0\n  426              ? hydrated.concat({\n  ...\n  721      /**\n  722       * Grabs the subtopics for a community from the store cache.\n  723:      * If we miss, request it from the backend.\n  724       *\n  725       * @param {String} communityId\n  ...\n 1094                      username: 'Anonymous',\n 1095                      profilePicture:\n 1096:                         'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n 1097                      school: _.get(oldThread, 'author.school', ''),\n 1098                  },\n ....\n 1128              comment.isActive = false\n 1129              comment.author.profilePicture =\n 1130:                 'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png'\n 1131          } catch (error) {\n 1132              Vue.prototype.$toasted.global.error(\n\n/Users/clayschubiner/jumpstart-frontend/client/store/company.js:\n  254                  (err) => err?.message?.non_field_errors?.[0]\n  255              )\n  256:             // TODO(amhunt): move this to backend with their support (i.e. provide messages at the direct error level)\n  257              // Extract error messages for clean email validation errors\n  258              if (error.message?.non_field_errors?.[0]) {\n\n/Users/clayschubiner/jumpstart-frontend/client/store/event-questions.js:\n   48              id: option.id,\n   49              key: `option--${generateRandomState()}`,\n   50:             // Backend expects this to be undefined for certain question types\n   51              title: option.option_title || undefined,\n   52          })),\n   ..\n   54  \n   55  /**\n   56:  * Maps the editor model to the request format that the backend expects.\n   57   * @return {Object}\n   58   */\n\n/Users/clayschubiner/jumpstart-frontend/client/store/roles.js:\n   97          const mappedCounts = _.mapKeys(counts, (value, key) => {\n   98              switch (key) {\n   99:                 case 'inbound': // TODO: migrate backend to calculate this for combined applicants, for \"new\" badge\n  100                      return 'applicants'\n  101                  case 'rsvp':\n\n/Users/clayschubiner/jumpstart-frontend/client/store/__tests__/ats-integrations.test.js:\n 1129                  workday_id: 3,\n 1130                  other_value: 1,\n 1131:                 backend_something: 'asdf',\n 1132              }\n 1133              const mockJob2 = {\n 1134                  workday_id: 6,\n 1135                  other_value: 988,\n 1136:                 backend_data: true,\n 1137              }\n 1138              const mockJobsEndpointData = [\n 1139                  mockJob1,\n 1140:                 { no_id: 988, backend_data: true },\n 1141                  mockJob2,\n 1142              ]\n\n/Users/clayschubiner/jumpstart-frontend/client/store/__tests__/communities.test.js:\n  467          const { store, mockApiCalls } = await createStore()\n  468  \n  469:         // Request the subtopics from the backend the first time\n  470          expect(store.state.subtopics).toEqual({})\n  471          const mockCommunityId = 'c46189de-967d-42f8-afa1-0ebec1eeab97'\n  ...\n  603                  username: 'Anonymous',\n  604                  profilePicture:\n  605:                     'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n  606                  school: _.get(mockRealUserThreadModel, 'author.school', ''),\n  607              },\n\n/Users/clayschubiner/jumpstart-frontend/client/store/messages/templates.js:\n   76  const actions = {\n   77      /**\n   78:      * Requests templates from backend, saving them when they come back and overriding\n   79       * the current templates. If specified, the `defaultTemplate` will also be saved (locally\n   80       * only).\n   ..\n  103  \n  104      /**\n  105:      * Saves an individual template, first sending it to the backend,\n  106       * then adding it to the local store.\n  107       * @param  {Object} payload        A template object\n  ...\n  127  \n  128      /**\n  129:      * Deletes an individual template from backend (if not default),\n  130       * then the local store.\n  131       * @param  {Object} payload        Template object\n  ...\n  190  const mutations = {\n  191      /**\n  192:      * Stores templates as loaded from the backend (may also include the default template). Rearranges the data for better\n  193       * runtime with lookups later on, while retaining order.\n  194       * @param {String} defaultTemplateText The default template, if any\n\n/Users/clayschubiner/jumpstart-frontend/client/views/blog/BlogHome.vue:\n  136      firstPost() {\n  137        /*\n  138:         On the ButterCMS backend we tag posts with ${FEATURED_POST_TAG_SLUG} to\n  139          indicate a featured post. We fetch the most recently featured post and\n  140          render it as the first post on this page.\n\n/Users/clayschubiner/jumpstart-frontend/client/views/discover/EventAnswerForm.vue:\n  252          const fieldType = _.get(this.customFields[key], 'type', '')\n  253  \n  254:         // The backend doesn't expect an answer for resume or basic info so don't send it.\n  255          if (key === 'resume' || fieldType === 'basicInfo') {\n  256            continue\n\n/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/AtsIntegrations.vue:\n  435  \n  436        // This function maps the models to combine with store data, then filters by non-null so the preferences we don't\n  437:       // even send from backend get filtered out appropriately.\n  438        const combineModels = (viewModels) => {\n  439          const mappedModels = _.map(viewModels, enhanceViewModelWithStoreData)\n\n/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/events/__tests__/SpeakerItem.test.js:\n   13                      image: {\n   14                          file_url:\n   15:                             'https://jumpstart-static.s3.amazonaws.com/backend/mediauploads/media/CoFhOakgSy6I3IG0sOHseg.png',\n   16                      },\n   17                      job_title: 'Do stuff',\n\n/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/events/__tests__/__snapshots__/EventPreview.test.js.snap:\n    3  exports[`EventPreview renders 1`] = `\n    4  <main class=\"event-preview\">\n    5:   <eventthemepreview-stub coverphotourl=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/company_roles/eventdetails/QOTIN747RGS6RU70EwH8rg-thumbnail-1920x400-70.jpg\"></eventthemepreview-stub>\n    6    <eventpreviewsection-stub>\n    7:     <eventdetailspreview-stub startdate=\"2020-07-13T07:30:00Z\" title=\"test\" location=\"\" logourl=\"https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/wQ414VoASnORmypFPfTrzQ.png\" rsvpcount=\"0\"></eventdetailspreview-stub>\n    8    </eventpreviewsection-stub>\n    9    <eventpreviewsection-stub>\n\n/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/events/__tests__/__snapshots__/SpeakerItem.test.js.snap:\n    3  exports[`SpeakerItem renders 1`] = `\n    4  <div class=\"color--black item speaker-item util__flex-column util__flex-vertical-center\">\n    5:   <div class=\"avatar\" style=\"background-image: url(https://jumpstart-static.s3.amazonaws.com/backend/mediauploads/media/CoFhOakgSy6I3IG0sOHseg.png);\"></div>\n    6    <h4 class=\"body-14-bold\">Mr. Test</h4>\n    7    <p class=\"body-12-regular\">Do stuff</p>\n\n/Users/clayschubiner/jumpstart-frontend/client/views/rsvpCheckInOrApply/__tests__/__snapshots__/AttendEventFlow.test.js.snap:\n    8      <img\n    9        class=\"event-cover-photo--image\"\n   10:       src=\"https://jumpstart-static.s3.amazonaws.com/backend/__sized__/company_roles/eventdetails/QOTIN747RGS6RU70EwH8rg-thumbnail-1920x400-70.jpg\"\n   11      />\n   12    </div>\n   ..\n   50      hideactionbar=\"true\"\n   51      location=\"\"\n   52:     logourl=\"https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/wQ414VoASnORmypFPfTrzQ.png\"\n   53      rsvpcount=\"0\"\n   54      startdate=\"2020-01-02T00:00:00.000Z\"\n\n/Users/clayschubiner/jumpstart-frontend/test/data/communities.js:\n   90              last_name: 'asdf',\n   91              profile_picture:\n   92:                 'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/U6WyP5TTSqmdWvMccbB0_g-thumbnail-200x200.png',\n   93              user_id: 'ea007399-3272-4301-9b99-2a032c65229e',\n   94              school: 'State University of New York College at Potsdam',\n   ..\n  139              username: 'Anonymous',\n  140              profile_picture:\n  141:                 'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n  142              school: 'University of Michigan-Ann Arbor',\n  143          },\n  ...\n  284                  profile_type: 'ANON_USER',\n  285                  profile_picture:\n  286:                     'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n  287                  username: 'Anonymous',\n  288                  display_name: 'Bobby Boi',\n  ...\n  308                  profile_type: 'ANON_USER',\n  309                  profile_picture:\n  310:                     'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n  311                  username: 'Anonymous',\n  312                  display_name: 'Bobby Boi',\n  ...\n  335          username: 'Cody Jumpstart',\n  336          profilePicture:\n  337:             'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png',\n  338      },\n  339      {\n  ...\n  488                      profileType: 'REAL_USER',\n  489                      profilePicture:\n  490:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/8EMAvG6DQ1GvmLHzUR-qvA-thumbnail-200x200-70.jpg',\n  491                      headline: 'Student @ Cornell University',\n  492                      gradYear: 'Spring 2021',\n  ...\n  533                      profileType: 'REAL_USER',\n  534                      profilePicture:\n  535:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/grBb7TAORIaSIF8SKXN1Zw-thumbnail-200x200-70.jpg',\n  536                      headline: 'Student @ University of Washington (UW)',\n  537                      gradYear: 'Fall 2018',\n\n/Users/clayschubiner/jumpstart-frontend/test/data/company.js:\n   20      locations: ['Boston, MA'],\n   21      logo:\n   22:         'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/S3uvUlMTS3OxfJ8oyfG5kg.jpg',\n   23      what_we_do: 'The smart way to find & subscribe activities',\n   24      our_culture: '',\n\n/Users/clayschubiner/jumpstart-frontend/test/data/events.js:\n   91              locations: ['Los Angeles', 'Los Angeles'],\n   92              logo:\n   93:                 'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/wQ414VoASnORmypFPfTrzQ.png',\n   94              what_we_do:\n   95                  'We apply machine learning models to an age-old problem: hiring university students.',\n   ..\n  129              webinar_url: null,\n  130              cover_photo:\n  131:                 'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/company_roles/eventdetails/QOTIN747RGS6RU70EwH8rg-thumbnail-1920x400-70.jpg',\n  132              capacity: null,\n  133              time_zone: 'America/Los_Angeles',\n\n/Users/clayschubiner/jumpstart-frontend/test/data/matches.js:\n   11          grad_year: 'Spring 2021',\n   12          college_logo:\n   13:             'https://jumpstart-static.s3.amazonaws.com/backend/users/college/m169286OTfi0DbpJ1t7MJw.png',\n   14          degree_type: 'BA/BS',\n   15          github_url: 'https://www.github.com/abhinavpottabathula',\n   ..\n   69                  tooltip: 'Has participated in engineering competitions',\n   70                  image:\n   71:                     'https://jumpstart-static.s3.amazonaws.com/backend/badges/Collegiate_Programming.png',\n   72                  description: ['Olympiad Mathematics'],\n   73                  question_answer_texts: [null],\n   ..\n   77                  tooltip: 'Have you participated in any hackathons?',\n   78                  image:\n   79:                     'https://jumpstart-static.s3.amazonaws.com/backend/badges/Hackathon_oADRUua.png',\n   80                  description: [\n   81                      'Hacking EDU',\n   ..\n  120      time_zone: null,\n  121      profile_picture:\n  122:         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/_Zj7HrxYSOWIWOam-mq8Ng-thumbnail-200x200.png',\n  123      additional_data: {},\n  124      status_type_id: null,\n  ...\n  188      time_zone: null,\n  189      profile_picture:\n  190:         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/_Zj7HrxYSOWIWOam-mq8Ng-thumbnail-200x200.png',\n  191      additional_data: {},\n  192      status_type_id: null,\n\n/Users/clayschubiner/jumpstart-frontend/test/data/messages.js:\n   65          messageID: 'c2829134-1005-42cf-ac6a-a402231e4f0d',\n   66          body:\n   67:             '<p>message all</p>\\n\\nhttps://localhost:4000/discover/jobs/jumpstart/backend-engineer/3302d960-014c-4a79-9c65-b3efe1ec713b',\n   68          read: true,\n   69          sender: '63d77c16-5d1d-422d-85c8-9200eeadd6eb',\n   ..\n   75          messageID: '88e6a02b-9c91-4e93-a30e-bc97648df7aa',\n   76          body:\n   77:             '<p>AHHHH </p>\\n\\nhttps://localhost:4000/discover/jobs/jumpstart/backend-engineer/3302d960-014c-4a79-9c65-b3efe1ec713b',\n   78          read: true,\n   79          sender: '63d77c16-5d1d-422d-85c8-9200eeadd6eb',\n\n/Users/clayschubiner/jumpstart-frontend/test/data/notifications.js:\n   19                      last_name: 'asdf',\n   20                      profile_picture:\n   21:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/Xd6AAeYrRCaSNmOKQp8a8w-thumbnail-200x200.png',\n   22                      headline:\n   23                          'Student @ State University of New York College at Potsdam',\n   ..\n   49                      last_name: 'hi',\n   50                      profile_picture:\n   51:                         'https://jumpstart-static.s3.amazonaws.com/backend/users/user/gfax4zBaTu-97DdqPmBYcw.jpg',\n   52                      headline:\n   53                          'Student @ University of Illinois at Urbana-Champaign (UIUC)',\n   ..\n   79                  author_data: {\n   80                      profile_picture:\n   81:                         'https://s3-us-west-1.amazonaws.com/jumpstart-static/backend/forum/anonymous.png',\n   82                      headline:\n   83                          'Student @ State University of New York College at Potsdam',\n   ..\n  108                      last_name: 'Test',\n  109                      profile_picture:\n  110:                         'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/oabL-K5XQOKZ-btQsQTeJA-thumbnail-200x200-70.jpg',\n  111                      headline: 'Student @ University of Michigan-Ann Arbor',\n  112                      share_slug: 'mason-test-2',\n\n/Users/clayschubiner/jumpstart-frontend/test/data/roles.js:\n   36          ],\n   37          logo:\n   38:             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/RtO8nQQLReOIqu1rUr-YwQ',\n   39          what_we_do:\n   40              'We apply machine learning models to an age-old problem: hiring university students.',\n   ..\n   52          is_me: false,\n   53          profile_picture:\n   54:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n   55      },\n   56      public: true,\n   ..\n   60              is_me: false,\n   61              profile_picture:\n   62:                 'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n   63          },\n   64          {\n   ..\n   66              is_me: false,\n   67              profile_picture:\n   68:                 'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n   69          },\n   70      ],\n   ..\n  117          ],\n  118          logo:\n  119:             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/RtO8nQQLReOIqu1rUr-YwQ',\n  120          what_we_do:\n  121              'We apply machine learning models to an age-old problem: hiring university students.',\n  ...\n  133          is_me: true,\n  134          profile_picture:\n  135:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n  136      },\n  137      public: true,\n  ...\n  185          ],\n  186          logo:\n  187:             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/RtO8nQQLReOIqu1rUr-YwQ',\n  188          what_we_do:\n  189              'We apply machine learning models to an age-old problem: hiring university students.',\n  ...\n  201          is_me: false,\n  202          profile_picture:\n  203:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n  204      },\n  205      public: false,\n  ...\n  253          ],\n  254          logo:\n  255:             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/RtO8nQQLReOIqu1rUr-YwQ',\n  256          what_we_do:\n  257              'We apply machine learning models to an age-old problem: hiring university students.',\n  ...\n  269          is_me: true,\n  270          profile_picture:\n  271:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n  272      },\n  273      public: true,\n  ...\n  337          ],\n  338          logo:\n  339:             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/RtO8nQQLReOIqu1rUr-YwQ',\n  340          what_we_do:\n  341              'We apply machine learning models to an age-old problem: hiring university students.',\n  ...\n  353          is_me: true,\n  354          profile_picture:\n  355:             'https://jumpstart-static.s3.amazonaws.com/backend/users/user/09ivB4nuR9Ku9twfg-ZRrQ.jpg',\n  356      },\n  357      public: true,\n\n/Users/clayschubiner/jumpstart-frontend/test/data/similarCandidates.js:\n   67          last_name: 'Post',\n   68          profile_picture:\n   69:             'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/ZrJIzDNYRGGCns_3eDnp8w-thumbnail-200x200-70.jpg',\n   70          linkedin_url: '',\n   71          percent_match: null,\n   ..\n  105              school: 'University of Maryland at College Park',\n  106              college_logo:\n  107:                 'https://jumpstart-static.s3.amazonaws.com/backend/users/college/Gz3QPSHDQJSExhLjAYnbZQ.png',\n  108              majors: ['Biomedical Engineering'],\n  109              grad_year: 'Fall 2017',\n  ...\n  136              school: 'University of California - San Diego (UCSD)',\n  137              college_logo:\n  138:                 'https://jumpstart-static.s3.amazonaws.com/backend/users/college/hHUi0aKISCm-69Yl2PvaLA.png',\n  139              majors: ['Aerospace Engineering'],\n  140              grad_year: 'Spring 2017',\n  ...\n  161          last_name: 'D',\n  162          profile_picture:\n  163:             'https://jumpstart-static.s3.amazonaws.com/backend/__sized__/users/user/1cltwXPSS7aKagUuGk9ZVg-thumbnail-200x200.png',\n  164          linkedin_url: 'https://www.linkedin.com/in/sophia-d-b2707874',\n  165          percent_match: null,\n  ...\n  168              school: 'Emory University',\n  169              college_logo:\n  170:                 'https://jumpstart-static.s3.amazonaws.com/backend/users/college/1d2_uLWkRAiuT3uroiiElQ.png',\n  171              majors: ['Fire Science'],\n  172              grad_year: 'Fall 2018',\n  ...\n  202                          locations: ['Mountain View, CA'],\n  203                          logo:\n  204:                             'https://jumpstart-static.s3.amazonaws.com/backend/organizations/organization/IPihMnqLRuipETMqD-lwWg',\n  205                          what_we_do:\n  206                              'Google is a multinational corporation that is specialized in internet-related services and products.',\n  ...\n  245                      tooltip: 'Have you TA’d any classes',\n  246                      image:\n  247:                         'https://jumpstart-static.s3.amazonaws.com/backend/badges/TA.png',\n  248                      description: ['Black Music'],\n  249                      question_answer_texts: ['Black Music'],\n  ...\n  253                      tooltip: 'Are you part of any technical clubs on campus?',\n  254                      image:\n  255:                         'https://jumpstart-static.s3.amazonaws.com/backend/badges/Coding_Club.png',\n  256                      description: ['A Cappella '],\n  257                      question_answer_texts: ['A Cappella '],\n  ...\n  261                      tooltip: 'Has participated in engineering competitions',\n  262                      image:\n  263:                         'https://jumpstart-static.s3.amazonaws.com/backend/badges/Collegiate_Programming.png',\n  264                      description: ['Putnam', 'Olympiad Informatics'],\n  265                      question_answer_texts: [null, null],\n\n141 matches across 62 files\n",
+			"settings":
+			{
+				"buffer_size": 42221,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "\"Application Review\n\"Recruiter Screen\n\"Hiring Manager Review\n\"Onsite Interview #1\n\"Post Onsite\n\"Onsite Interview #2\n\"Byteboard Interview\n\"Offer\n\"Hired",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix",
+				"name": "\"Application Review"
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+			"settings":
+			{
+				"buffer_size": 66225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "user = User.objects.get(email='vchen@lyft.com')\norganization = user.employee_profile.organization\nlist(ThirdPartyStage.objects.filter(organization=organization).values_list('third_party_stage_name', flat=True))\n\nfrom jumpstart.integrations.greenhouse.greenhouse_services import GreenhouseListAPIIterator\n\n\nlist(ThirdPartyStage.objects.all().values_list('third_party_stage_name', flat=True))\n\ntplj = ThirdPartyLinkedJob.objects.filter(third_party_type='GREENHOUSE').values_list('third_party_job_id', 'organization_id')\ntplj = ThirdPartyLinkedJob.objects.filter(role_id='014738c2-f3d1-476f-933f-03483eb42166',third_party_type='GREENHOUSE').values_list('third_party_job_id', 'organization_id')\n\njob_ids = list(tplj)\nimport random\nrandom.shuffle(job_ids)\n\nfor job_id, organization_id in tplj:\n    try:\n        stages_url = '/job_stages'\n        stages_url = f'/jobs/{job_id}/stages'\n        org = Organization.objects.get(id=organization_id)\n        api_iterator = GreenhouseListAPIIterator(\n            url=stages_url, organization=org, per_page=500\n        )\n        data = list()\n        while api_iterator.has_next():\n            stage_data = api_iterator.next()\n            data.append(stage_data)\n        for z in data:\n            print('XXX job_id', job_id, 'orgname:',org.name, [x['name'] for x in z])\n    except Exception:\n        pass",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "XXX job_id 4345218002 orgname: Lyft ['Application Review', 'Hiring Manager Review', 'Recruiter Screen', 'Byteboard Interview', 'Phone/Initial Interview #1', 'Phone/Initial Interview #2', 'Onsite Interview #1', 'Onsite Interview #2', 'Post Onsite', 'Offer']",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Unix",
+				"name": "XXX job_id 4345218002 orgname: Lyft ['Application"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"finder",
+				"Finder: Open here"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"1 ",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"path",
+				"Copy Path Relative to Project"
+			],
+			[
+				"snake",
+				"Convert Case: snake_case"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"save",
+				"DealyedSaveAll: Save all"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"profile",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"profile plu",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"add new ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project add ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/clayschubiner/jumpstart-backend/tests/integration"
+	],
+	"file_history":
+	[
+		"/Users/clayschubiner/jumpstart-frontend/build/environment.js",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/models.py",
+		"/Users/clayschubiner/jumpstart-frontend/codecov.yml",
+		"/Users/clayschubiner/Downloads/danstudent prod.csv",
+		"/Users/clayschubiner/jumpstart-frontend/client/store/__tests__/ats-integrations.test.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/studentHeader/StudentHeader.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/feature-flags/definitions.js",
+		"/Users/clayschubiner/jumpstart-frontend/test/utils/expectedFlagDefinitions.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/store/ats-integrations.js",
+		"/Users/clayschubiner/jumpstart-frontend/package.json",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/serializers.py",
+		"/Users/clayschubiner/Downloads/csv_of_less_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/us.sitesucker.mac.sitesucker/www.burlingameorthopedics.org/pay-online.html",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/services.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/studentHeader/__tests__/__snapshots__/StudentHeader.test.js.snap",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/AtsIntegrationCard.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modals/MassMessageConfirm.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/thirdParty/datadog.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/ResumeFile.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/attachments.js",
+		"/Users/clayschubiner/Downloads/rapidfire-pistols.ahk",
+		"/Users/clayschubiner/jumpstart-backend/test.py",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/checkIn/CheckInPassword.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/auth.js",
+		"/Users/clayschubiner/Downloads/lyft.csv",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/company.js",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modals/Register.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/waitlist.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/TextButton.vue",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/admin.py",
+		"/Users/clayschubiner/zsh_plugins/clay.sh",
+		"/Users/clayschubiner/Dropbox/Taxes/todo2020.txt",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/integrations.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/match/MatchActionRow.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/matchesTable/ATSIntegrationTableCell.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/assets/css/modules/_popover.scss",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/RoleForm.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/home/headerRoutes.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/home/requestDemoPartners.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/recruiter/ats-integrations.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/recruiter/interactions.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/registration/request-demo.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/role/event.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/role/index.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/views/home/Team.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/store/matches/matches-new.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/services/__tests__/autocomplete.test.js",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_services.py",
+		"/Users/clayschubiner/jumpstart-frontend/test/testcafe/signup_flow.test.js",
+		"/Users/clayschubiner/jumpstart-backend/workday_soap.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0082_auto_20200324_1806.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0120_auto_20200324_1806.py",
+		"/Users/clayschubiner/Downloads/TaxStatement_2019_1099B_DIV_268011223819438.csv",
+		"/Users/clayschubiner/Dropbox/Taxes/fidelity 1099-R 2020-01-26 12.08.07.pdf",
+		"/Users/clayschubiner/jumpstart-backend/requirements/common.txt",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/greenhouse/greenhouse_services.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/massive_1000.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_csv_import.py",
+		"/Users/clayschubiner/Dropbox/Robinhood Transactions/transactions to sell.txt",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/massive_1680_with_some_duplicates.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/massive_8000_with_duplicates.csv",
+		"/Users/clayschubiner/Downloads/cleaned_universities.csv",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/ats-integrations.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/models/recruiter/connect-ats.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/services/roles.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/services/__tests__/roles.test.js",
+		"/Users/clayschubiner/jumpstart-frontend/test/data/roles.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/matchesTable/ExportToAtsDropdown.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/ATSIntegrationCard.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/recruiter/BatchActionsHeader.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/ATSIntegrations.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/views/recruiter/ConnectToATS.vue",
+		"/Users/clayschubiner/jumpstart-backend/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/clayschubiner/jumpstart-frontend/client/store/discover.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modules/TitleBarTabs.vue",
+		"/Users/clayschubiner/jumpstart-frontend/client/components/modals/csvImport/UploadCsv.vue",
+		"/Users/clayschubiner/jumpstart-frontend/.github/workflows/review-request-notifier.yml",
+		"/Users/clayschubiner/jumpstart-frontend/.github/workflows/pr-title.yml",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_custom_questions.py",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/http.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/plugins/index.js",
+		"/Users/clayschubiner/jumpstart-frontend/client/API/matches.js",
+		"/Users/clayschubiner/Downloads/Clay's mega test job.csv",
+		"/Users/clayschubiner/jumpstart-backend/.env",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/matching/migrations/0007_auto_20180618_2106.py",
+		"/Users/clayschubiner/.config/Franz/recipes/hangouts/index.js"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 137.0,
+		"where_history":
+		[
+			"*.js*,*.vue",
+			"*",
+			"*.js",
+			"*.vue",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{title:",
+			"le: \"",
+			"backend.",
+			"// ",
+			":",
+			"11:30",
+			"9 AM",
+			"6",
+			"8",
+			"8 AM",
+			"\n",
+			" ",
+			"RecruiterAnalyticsRoleIdsInputSerializer",
+			"UserInvitation",
+			" = ",
+			"\t",
+			": ",
+			" ",
+			"\t",
+			"p.m.\t",
+			"p>",
+			" i ",
+			"match_score",
+			"+0",
+			" ",
+			"beats",
+			"users_passing_all_before_bad_words_check",
+			"= ",
+			"\"",
+			"|",
+			"STATE_NEEDS_MANUAL_REVIEW",
+			"first",
+			"|",
+			"lowe",
+			"u.",
+			"length",
+			"'''",
+			"IsRenettisOut",
+			"GetIsRenettisOut",
+			"obj.webinar_url",
+			"has_webinar_url",
+			"test",
+			"develop",
+			"'full_name': '",
+			"_",
+			"connecting lever",
+			"availableIntegrations",
+			"availableIntegrationsMap",
+			"integrations/availableIntegrations",
+			"integrations.workday",
+			"ats-integrations/comingSoonIntegrations",
+			"workdayIntegration",
+			"comingSoon",
+			"COMING_SOON",
+			"Coming soon!",
+			"Message sent to",
+			"Message sent",
+			"feel free to close",
+			"0",
+			" ",
+			".",
+			" ",
+			"'",
+			"', ",
+			", ",
+			"image_types = [",
+			".",
+			"pdf",
+			"saveAttachment",
+			"upload",
+			"/resume/upload",
+			"recruiter_upload",
+			"email_has_been_sent",
+			"\t",
+			"dev",
+			"submit-feedback",
+			"recruiters/submit-feedback",
+			"3-5",
+			"1-2",
+			"\", \"",
+			"'",
+			"timeout",
+			"network error",
+			", ",
+			"enter your password to continue",
+			"test_jumpstart_gw3",
+			"test_jumpstart_gw2",
+			"Team at Jumpstart",
+			", ",
+			"email",
+			"getJumpstartTeam",
+			"team",
+			"api/team",
+			"addToWaitlist",
+			"recruiter-waitlist",
+			"GRADUATION",
+			"GREENHOUSE",
+			"'leaf'",
+			"leaf",
+			"accent-strawberry",
+			"leaf.*fade",
+			"leaf.*faded",
+			"leaf.*faed",
+			"accent-",
+			"leaf",
+			"color-leaf",
+			"button--color-leaf",
+			"archiveStages",
+			"archive_reasons",
+			"{",
+			" {",
+			"=",
+			" =",
+			"Green",
+			"greenhouse",
+			"GREENHOUSE",
+			"null",
+			"comment",
+			"file_content",
+			"2000",
+			"−",
+			"$",
+			"−",
+			"Automatic payment: Mastercard  • • • • 8380",
+			"rao",
+			"imported by ",
+			"ThirdPartyStudent",
+			"teja"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"email_attempted_to_send",
+			"WORKDAY",
+			"Workday",
+			"workday"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42221,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										203,
+										211
+									],
+									[
+										509,
+										517
+									],
+									[
+										705,
+										713
+									],
+									[
+										934,
+										942
+									],
+									[
+										1159,
+										1167
+									],
+									[
+										1439,
+										1447
+									],
+									[
+										1554,
+										1562
+									],
+									[
+										1867,
+										1875
+									],
+									[
+										2189,
+										2197
+									],
+									[
+										2686,
+										2694
+									],
+									[
+										3045,
+										3053
+									],
+									[
+										3578,
+										3586
+									],
+									[
+										3918,
+										3926
+									],
+									[
+										4128,
+										4136
+									],
+									[
+										4334,
+										4342
+									],
+									[
+										4515,
+										4523
+									],
+									[
+										4850,
+										4858
+									],
+									[
+										5037,
+										5045
+									],
+									[
+										5326,
+										5334
+									],
+									[
+										5651,
+										5659
+									],
+									[
+										5974,
+										5982
+									],
+									[
+										6260,
+										6268
+									],
+									[
+										6683,
+										6691
+									],
+									[
+										7119,
+										7127
+									],
+									[
+										7494,
+										7502
+									],
+									[
+										7781,
+										7789
+									],
+									[
+										8176,
+										8184
+									],
+									[
+										8505,
+										8513
+									],
+									[
+										8830,
+										8838
+									],
+									[
+										9250,
+										9258
+									],
+									[
+										9599,
+										9607
+									],
+									[
+										9833,
+										9841
+									],
+									[
+										10186,
+										10194
+									],
+									[
+										10434,
+										10442
+									],
+									[
+										10676,
+										10684
+									],
+									[
+										10920,
+										10928
+									],
+									[
+										11224,
+										11232
+									],
+									[
+										11466,
+										11474
+									],
+									[
+										11631,
+										11639
+									],
+									[
+										11970,
+										11978
+									],
+									[
+										12144,
+										12152
+									],
+									[
+										12276,
+										12284
+									],
+									[
+										12371,
+										12379
+									],
+									[
+										12677,
+										12685
+									],
+									[
+										12944,
+										12952
+									],
+									[
+										13136,
+										13144
+									],
+									[
+										13491,
+										13499
+									],
+									[
+										13978,
+										13986
+									],
+									[
+										14041,
+										14049
+									],
+									[
+										14392,
+										14400
+									],
+									[
+										14795,
+										14803
+									],
+									[
+										14912,
+										14920
+									],
+									[
+										15205,
+										15213
+									],
+									[
+										15538,
+										15546
+									],
+									[
+										15917,
+										15925
+									],
+									[
+										16309,
+										16317
+									],
+									[
+										16592,
+										16600
+									],
+									[
+										16912,
+										16920
+									],
+									[
+										17176,
+										17184
+									],
+									[
+										17450,
+										17458
+									],
+									[
+										17643,
+										17651
+									],
+									[
+										17784,
+										17792
+									],
+									[
+										17938,
+										17946
+									],
+									[
+										18310,
+										18318
+									],
+									[
+										18556,
+										18564
+									],
+									[
+										18845,
+										18853
+									],
+									[
+										19063,
+										19071
+									],
+									[
+										19401,
+										19409
+									],
+									[
+										19720,
+										19728
+									],
+									[
+										19832,
+										19840
+									],
+									[
+										19952,
+										19960
+									],
+									[
+										20322,
+										20330
+									],
+									[
+										20532,
+										20540
+									],
+									[
+										20866,
+										20874
+									],
+									[
+										21102,
+										21110
+									],
+									[
+										21350,
+										21358
+									],
+									[
+										21657,
+										21665
+									],
+									[
+										21979,
+										21987
+									],
+									[
+										22388,
+										22396
+									],
+									[
+										22620,
+										22628
+									],
+									[
+										22901,
+										22909
+									],
+									[
+										23241,
+										23249
+									],
+									[
+										23429,
+										23437
+									],
+									[
+										23590,
+										23598
+									],
+									[
+										23875,
+										23883
+									],
+									[
+										24204,
+										24212
+									],
+									[
+										24495,
+										24503
+									],
+									[
+										24770,
+										24778
+									],
+									[
+										24971,
+										24979
+									],
+									[
+										25193,
+										25201
+									],
+									[
+										25566,
+										25574
+									],
+									[
+										25953,
+										25961
+									],
+									[
+										26374,
+										26382
+									],
+									[
+										26809,
+										26817
+									],
+									[
+										27238,
+										27246
+									],
+									[
+										27541,
+										27549
+									],
+									[
+										28081,
+										28089
+									],
+									[
+										28491,
+										28499
+									],
+									[
+										28739,
+										28747
+									],
+									[
+										29082,
+										29090
+									],
+									[
+										29464,
+										29472
+									],
+									[
+										29751,
+										29759
+									],
+									[
+										30053,
+										30061
+									],
+									[
+										30321,
+										30329
+									],
+									[
+										30600,
+										30608
+									],
+									[
+										30976,
+										30984
+									],
+									[
+										31361,
+										31369
+									],
+									[
+										31739,
+										31747
+									],
+									[
+										32086,
+										32094
+									],
+									[
+										32465,
+										32473
+									],
+									[
+										32812,
+										32820
+									],
+									[
+										33154,
+										33162
+									],
+									[
+										33393,
+										33401
+									],
+									[
+										33654,
+										33662
+									],
+									[
+										34035,
+										34043
+									],
+									[
+										34358,
+										34366
+									],
+									[
+										34737,
+										34745
+									],
+									[
+										35110,
+										35118
+									],
+									[
+										35461,
+										35469
+									],
+									[
+										35790,
+										35798
+									],
+									[
+										36169,
+										36177
+									],
+									[
+										36491,
+										36499
+									],
+									[
+										36719,
+										36727
+									],
+									[
+										36943,
+										36951
+									],
+									[
+										37130,
+										37138
+									],
+									[
+										37451,
+										37459
+									],
+									[
+										37645,
+										37653
+									],
+									[
+										37967,
+										37975
+									],
+									[
+										38162,
+										38170
+									],
+									[
+										38483,
+										38491
+									],
+									[
+										38677,
+										38685
+									],
+									[
+										38998,
+										39006
+									],
+									[
+										39286,
+										39294
+									],
+									[
+										39608,
+										39616
+									],
+									[
+										39936,
+										39944
+									],
+									[
+										40217,
+										40225
+									],
+									[
+										40559,
+										40567
+									],
+									[
+										40884,
+										40892
+									],
+									[
+										41305,
+										41313
+									],
+									[
+										41653,
+										41661
+									],
+									[
+										42008,
+										42016
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"recent_file_switcher: timestamp": 1602195571.17,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								150
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"Application Review",
+							"recent_file_switcher: timestamp": 1602195629.0,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/clayschubiner/jumpstart-backend/tests/integration/test_recruiter_analytics.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8478,
+								8478
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1602195690.56,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5959.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1341
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1602195888.67,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								256
+							]
+						],
+						"settings":
+						{
+							"auto_name": "XXX job_id 4345218002 orgname: Lyft ['Application",
+							"recent_file_switcher: timestamp": 1602201582.44,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 150.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jumpstart-frontend.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"code",
+				"jumpstart-frontend/codecov.yml"
+			],
+			[
+				"datadog",
+				"jumpstart-frontend/client/thirdParty/datadog.js"
+			],
+			[
+				"auth.js",
+				"jumpstart-frontend/client/API/auth.js"
+			],
+			[
+				"_popover.scss",
+				"jumpstart-frontend/client/assets/css/modules/_popover.scss"
+			],
+			[
+				"API/http.js",
+				"jumpstart-frontend/client/API/http.js"
+			],
+			[
+				"clientplug",
+				"client/plugins/index.js"
+			],
+			[
+				"review",
+				".github/workflows/review-request-notifier.yml"
+			],
+			[
+				"upload",
+				"client/components/modals/csvImport/UploadCsv.vue"
+			],
+			[
+				"comm",
+				"requirements/common.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

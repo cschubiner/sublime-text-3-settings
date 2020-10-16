@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"al",
+				"allowed_file_types\tabc"
+			],
+			[
+				"rs",
+				"rs_qs\tabc"
+			],
+			[
+				"alread",
+				"already_messaged_student_ids\tabc"
+			],
+			[
+				"us",
+				"users_with_unseen_notifications\tabc"
+			],
+			[
+				"dan",
+				"display_name\t(models.py)"
+			],
+			[
+				"Third",
+				"ThirdPartyStage\t(api.py)"
+			],
+			[
+				"depl",
+				"deploy_server\tabc"
+			],
+			[
+				"em",
+				"employee_profile\t(serializers.py)"
+			],
+			[
+				"third",
+				"third_party_job\t(serializers.py)"
+			],
+			[
+				"claysc",
+				"clay_score\tabc"
+			],
+			[
+				"TRA",
+				"TRAIT_TO_CLAY_WEIGHTING\tabc"
+			],
+			[
+				"only",
+				"only_students\t(api.py)"
+			],
+			[
+				"developm",
+				"development.txt"
+			],
+			[
+				"csv",
+				"csv_student\tabc"
+			],
+			[
+				"inter",
+				"interactionfeedback\t(0007_auto_20180618_2106.py)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/clayschubiner/call-of-duty-warzone-tracker/download.py",
+			"settings":
+			{
+				"buffer_size": 6911,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project Manager: Add New Project"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"u",
+				"Permute Lines: Unique"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"delete",
+				"DeleteCurrentFile: Delete File"
+			],
+			[
+				"path",
+				"Copy Path Relative to Project"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snake",
+				"Convert Case: snake_case"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"j",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"add proj",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project add ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/clayschubiner/call-of-duty-warzone-tracker"
+	],
+	"file_history":
+	[
+		"/Users/clayschubiner/jumpstart-backend/.env",
+		"/Users/clayschubiner/jumpstart-backend/requirements/common.txt",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils/generic_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_file_type_verification.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/models.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_auth.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/rapidfire.ahk",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/flake8.yml",
+		"/Users/clayschubiner/jumpstart-backend/.idea/runConfigurations/flake8.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/event_checkin_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_company_roles.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_referral.py",
+		"/Users/clayschubiner/jumpstart-backend/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/email_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/message_students_for_communities_launch.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/models.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/move.ahk",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/auth/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv4.ahk",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_current_user_api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0080_auto_20190720_0118.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0082_auto_20190724_2139.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0083_auto_20190725_1935.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0106_auto_20200115_1947.py",
+		"/Users/clayschubiner/Dropbox/Mackup/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/no_recoil.ahk",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv3.ahk",
+		"/Users/clayschubiner/Downloads/Recruiting (1).wsdl",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_workday.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/json/workday_responses.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/factories.py",
+		"/Users/clayschubiner/jumpstart-backend/.git/rebase-merge/git-rebase-todo",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/greenhouse/greenhouse_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/lever/lever_services.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_workday_upload.py",
+		"/Users/clayschubiner/jumpstart-backend/fabfile.py",
+		"/Users/clayschubiner/jumpstart-backend/workday_soap.py",
+		"/Users/clayschubiner/.ssh/config",
+		"/Users/clayschubiner/.ssh/known_hosts",
+		"/Users/clayschubiner/zsh_plugins/clay.sh",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/site.yml",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/huge_dev_csv.csv",
+		"/Users/clayschubiner/Downloads/dev_csv_81.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_greenhouse.py",
+		"/Users/clayschubiner/Downloads/Student_Recruiting.wsdl",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0052_auto_20190827_1712.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0087_auto_20200410_0005.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_users.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_filters.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_shared.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/fetch_new_ats_candidates_command.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0051_auto_20190827_1705.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/change_origin_for_stripe.py",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/pr-title.yml",
+		"/Users/clayschubiner/discord_online_status_notifier_bot/bot.py",
+		"/Users/clayschubiner/jumpstart-backend/README.md",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints_workday.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/migrations/0079_auto_20200331_2334.py",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/tasks.py",
+		"/Users/clayschubiner/life_planner/.gitignore",
+		"/Users/clayschubiner/life_planner/evaluator.py",
+		"/Users/clayschubiner/Downloads/csv_of_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/csv_of_less_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/recruiting_api_swagger.json",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/no_email_column.csv",
+		"/Users/clayschubiner/Downloads/test_email_js.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/csv_imports/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_csv_import.py",
+		"/Users/clayschubiner/jumpstart-backend/query.sql",
+		"/Users/clayschubiner/jumpstart-backend/analyze.json",
+		"/Users/clayschubiner/Dropbox/Robinhood Transactions/transactions to sell.txt",
+		"/Users/clayschubiner/jumpstart-backend/.gitignore",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_custom_questions.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/api.py",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_5000.csv",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_100.csv",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/review-request-notifier.yml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/celery.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/models.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_events.py",
+		"/Users/clayschubiner/Downloads/csv-clayemailtest.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/api.py",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/random custom questions notes.txt",
+		"/Users/clayschubiner/Downloads/csv-sales-file.csv",
+		"/Users/clayschubiner/Downloads/Connor Test 3.csv",
+		"/Users/clayschubiner/Downloads/Data Scientist.csv",
+		"/Users/clayschubiner/jumpstart-backend/kubernetes/helm/templates/middleware-https-redirect.yaml",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/unit_tests.yml",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/try_2.yml",
+		"/Users/clayschubiner/jumpstart-backend/.travis.yml",
+		"/Users/clayschubiner/jumpstart-backend/install_development_mac.sh",
+		"/Users/clayschubiner/jumpstart-backend/requirements/development.txt",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/flake8_linting.yml",
+		"/Users/clayschubiner/Downloads/candidatess.csv",
+		"/Users/clayschubiner/Downloads/cody1.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0080_auto_20200205_2313.py",
+		"/Users/clayschubiner/Downloads/recruiter_preview_step_2.csv",
+		"/Users/clayschubiner/Downloads/CSV Students Generator.py",
+		"/Users/clayschubiner/Downloads/test_upload.csv",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/endpoints.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/csv_imports/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/management/commands/send_new_jobs_experimental_email.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/management/commands/send_all_emails_test.py",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/test.yml",
+		"/Users/clayschubiner/jumpstart-backend/setup.cfg"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"::",
+			" FAILED [",
+			"User",
+			"matches_for_player",
+			"saved_matches"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/clayschubiner/call-of-duty-warzone-tracker/download.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6585,
+								6585
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1593464827.34,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 59.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "call-of-duty-warzone-tracker.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".env",
+				"jumpstart-backend/.env"
+			],
+			[
+				"comm",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"flake8",
+				"jumpstart-backend/.github/workflows/flake8.yml"
+			],
+			[
+				"fake8",
+				"jumpstart-backend/.idea/runConfigurations/flake8.xml"
+			],
+			[
+				"fab",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"prtitl",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"requirements/common.txt",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"prtit",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"read",
+				"jumpstart-backend/README.md"
+			],
+			[
+				"atswor",
+				"jumpstart-backend/docs/api/ats_endpoints_workday.md"
+			],
+			[
+				"ats",
+				"jumpstart-backend/docs/api/ats_endpoints.md"
+			],
+			[
+				"commont",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"travis",
+				"jumpstart-backend/.travis.yml"
+			],
+			[
+				"install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"deve",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"common",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"fabf",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"dev",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"endpoint",
+				"jumpstart-backend/docs/api/endpoints.md"
+			],
+			[
+				"setup",
+				"jumpstart-backend/setup.cfg"
+			],
+			[
+				"os install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"csvapi",
+				"jumpstart-backend/jumpstart/csv_imports/api.py"
+			],
+			[
+				"import",
+				"jumpstart-backend/tests/integration/test_csv_import.py"
+			],
+			[
+				"testyml",
+				"jumpstart-backend/.github/workflows/test.yml"
+			],
+			[
+				"test",
+				"company_roles/tests.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

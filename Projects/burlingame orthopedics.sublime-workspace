@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wo",
+				"work_email\tabc"
+			],
+			[
+				"bytes",
+				"bytes_data\tabc"
+			],
+			[
+				"mag",
+				"magic_result\tabc"
+			],
+			[
+				"Enab",
+				"EnabledWeapon\tabc"
+			],
+			[
+				"rec",
+				"recruiter_user\tabc"
+			],
+			[
+				"ans",
+				"answers_qs\tabc"
+			],
+			[
+				"firs",
+				"first_name\tabc"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"csv",
+				"csv_student\tabc"
+			],
+			[
+				"alread",
+				"already_messaged_student_ids\tabc"
+			],
+			[
+				"us",
+				"users_with_unseen_notifications\tabc"
+			],
+			[
+				"dan",
+				"display_name\t(models.py)"
+			],
+			[
+				"Third",
+				"ThirdPartyStage\t(api.py)"
+			],
+			[
+				"depl",
+				"deploy_server\tabc"
+			],
+			[
+				"em",
+				"employee_profile\t(serializers.py)"
+			],
+			[
+				"third",
+				"third_party_job\t(serializers.py)"
+			],
+			[
+				"claysc",
+				"clay_score\tabc"
+			],
+			[
+				"TRA",
+				"TRAIT_TO_CLAY_WEIGHTING\tabc"
+			],
+			[
+				"only",
+				"only_students\t(api.py)"
+			],
+			[
+				"developm",
+				"development.txt"
+			],
+			[
+				"inter",
+				"interactionfeedback\t(0007_auto_20180618_2106.py)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 117 files for \"highly trained doctors pride themselves on serving their patients with respect and diligence. Whether it be through surgery\" (regex)\n\n0 matches\n\nSearching 118 files for \"highly trained\" (regex)\n\n/Users/clayschubiner/_/burlingameorthopedics.com/1701.html:\n  110  specializing in treating a wide variety of injuries and conditions. We have\n  111  served the peninsula community for over 20 years, and have maintained our\n  112: attention to detail and patient satisfaction. <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/8a458b182e654852ffff803cffffd523.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>Our three highly trained doctors pride\n  113  themselves on serving their patients with respect and diligence. Whether it be\n  114  through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/index.html:\n  163                             </P>\n  164                             <P><IMG width=\"450\" src=\"./mediac/450_0/media/doctors.JPG\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P>\n  165:                            <P>Our highly trained doctors pride\n  166                                themselves on serving their patients with respect and diligence. Whether it be\n  167                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/index.html.bak@201402211306:\n  163                             </P>\n  164                             <P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/8a458b182e654852ffff803cffffd523.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P>\n  165:                            <P>Our highly trained doctors pride\n  166                                themselves on serving their patients with respect and diligence. Whether it be\n  167                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/private/ESW/site_52d86c7d37f16/page_index.xml:\n   24                                specializing in treating a wide variety of injuries and conditions. We have\n   25                                served the peninsula community for over 20 years and have maintained our\n   26:                               attention to detail and patient satisfaction throughout. </font></p></div><div cached_border=\"none|rgb(0, 0, 0)|0px|\" ismarknow=\"0\" isflashingnow=\"0\" eswid=\"ESW_GEN_ID_2\" id=\"ESW_GEN_ID_2\" style=\"top: 493px; left: 305px; z-index: 111; visibility: visible; height: 161px; position: absolute; width: 484px; border-width: 0px;\" class=\"ESWpageContent draggable editable\"><p><font size=\"3\">Our highly trained doctors pride\n   27                                themselves on serving their patients with respect and diligence. Whether it be\n   28                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/private/ESW/site_52d86c7d37f16/page_index.xml_1389916741.backup:\n   24                                specializing in treating a wide variety of injuries and conditions. We have\n   25                                served the peninsula community for over 20 years and have maintained our\n   26:                               attention to detail and patient satisfaction throughout. </font></p></div><div cached_border=\"none|rgb(0, 0, 0)|0px|\" ismarknow=\"0\" isflashingnow=\"0\" eswid=\"ESW_GEN_ID_2\" id=\"ESW_GEN_ID_2\" style=\"top: 493px; left: 305px; z-index: 111; visibility: visible; height: 161px; position: absolute; width: 484px; border-width: 0px;\" class=\"ESWpageContent draggable editable\"><p><font size=\"3\">Our highly trained doctors pride\n   27                                themselves on serving their patients with respect and diligence. Whether it be\n   28                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/private/redirecturl/index.html:\n  163                             </P>\n  164                             <P><IMG width=\"450\" src=\"./mediac/450_0/media/doctors.JPG\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P>\n  165:                            <P>Our highly trained doctors pride\n  166                                themselves on serving their patients with respect and diligence. Whether it be\n  167                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/1701.html:\n  110  specializing in treating a wide variety of injuries and conditions. We have\n  111  served the peninsula community for over 20 years, and have maintained our\n  112: attention to detail and patient satisfaction. <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/8a458b182e654852ffff803cffffd523.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>Our three highly trained doctors pride\n  113  themselves on serving their patients with respect and diligence. Whether it be\n  114  through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/1701.html.bak@201402211306:\n  110  specializing in treating a wide variety of injuries and conditions. We have\n  111  served the peninsula community for over 20 years, and have maintained our\n  112: attention to detail and patient satisfaction. <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/8a458b182e654852ffff803cffffd523.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>Our three highly trained doctors pride\n  113  themselves on serving their patients with respect and diligence. Whether it be\n  114  through surgery, physical therapy, or medicinal treatment, they focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/index.html.bak@201402211306:\n  163                             </P>\n  164                             <P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/8a458b182e654852ffff803cffffd523.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P>\n  165:                            <P>Our highly trained doctors pride\n  166                                themselves on serving their patients with respect and diligence. Whether it be\n  167                                through surgery, physical therapy, or medicinal treatment, they focus on\n\n9 matches across 9 files\n\n\nSearching 174 files for \"Hip arthroscopy - FAI\n\" (regex)\n\n0 matches\n\nSearching 174 files for \"Hip arthroscopy - FAI\" (regex)\n\n0 matches\n\nSearching 175 files for \"Hip arthroscopy - FA\" (regex)\n\n0 matches\n\nSearching 175 files for \"Hip arthroscopy\" (regex)\n\n0 matches\n\nSearching 180 files for \"hip arth\" (regex)\n\n0 matches\n\nSearching 199 files for \"replacements\" (regex)\n\n/Users/clayschubiner/_/burlingameorthopedics.com/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/site/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/site/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n18 matches across 6 files\n\n\nSearching 220 files for \"Knee replacements\" (regex)\n\n/Users/clayschubiner/_/burlingameorthopedics.com/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/site/2201.html:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n/Users/clayschubiner/_/burlingameorthopedics.com/public/site/2201.html.bak@201402211306:\n  113  expertise of three highly-qualified doctors, treatments for knees, shoulders,\n  114  elbows, ankles, backs, and wrists are all available. We offer the most advanced\n  115: and effective medical operations, including Arthroscopic Rotator Cuff Repairs, Oxford Partial Knee Replacements, Total Knee Replacements, Anterior Cruciate Reconstructions, and Anterior Approach Hip Replacements. <BR>\n  116  \n  117  <BR clear=\"all\"></P><P><IMG width=\"450\" src=\"./mediac/450_0/media/DIR_3901/35ad98122af65dbffff8239ffffd502.jpg\" height=\"337\" border=\"0\" alt=\"\" align=\"left\"><BR clear=\"all\"></P><P>What sets us apart is our focus on\n\n12 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 15534,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/_/burlingameorthopedics.com/2201.html",
+			"settings":
+			{
+				"buffer_size": 14341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/clayschubiner/_/burlingameorthopedics.com/index.html",
+			"settings":
+			{
+				"buffer_size": 16737,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"open",
+				"Finder: Open here"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"1 t",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"puni",
+				"Permute Lines: Unique"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"case",
+				"Convert Case: separate␣words"
+			],
+			[
+				"add pr",
+				"Project Manager: Add New Project"
+			],
+			[
+				"path",
+				"Copy Path Relative to Project"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snake",
+				"Convert Case: snake_case"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"camel",
+				"Convert Case: camelCase"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"find",
+				"Finder: Open here"
+			],
+			[
+				"close al",
+				"File: Close All"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"j",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"delete",
+				"DeleteCurrentFile: Delete File"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"add proj",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project add ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/clayschubiner/_",
+		"/Users/clayschubiner/_/cgi-bin",
+		"/Users/clayschubiner/_/logs",
+		"/Users/clayschubiner/_/private",
+		"/Users/clayschubiner/_/public"
+	],
+	"file_history":
+	[
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv5.ahk",
+		"/Users/clayschubiner/Downloads/email.html",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/jeff clay 28th birthday town deception mystery.txt",
+		"/untitled",
+		"/Users/clayschubiner/Downloads/All Responses.csv",
+		"/Users/clayschubiner/Downloads/test 2.txt",
+		"/Users/clayschubiner/Downloads/new_test 5/test.txt",
+		"/Users/clayschubiner/Downloads/new_test 4/test.txt",
+		"/Users/clayschubiner/Downloads/new_test/test.txt",
+		"/Users/clayschubiner/Downloads/output 2.csv",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoil_options.ini",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/templates/email/templatetags/js_tags.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/company_role_section/tests/test_company_role_section_api.py",
+		"/Users/clayschubiner/Downloads/prospects and jedis.txt",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/constants.py",
+		"/Users/clayschubiner/Downloads/resource.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627-90.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627-80.csv",
+		"/Users/clayschubiner/Downloads/6-16-20-199627.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/services.py",
+		"/Users/clayschubiner/Downloads/jUMPSTART CSV.csv",
+		"/Users/clayschubiner/Downloads/jumpstart_csv_repasted.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/install_development_mac.sh",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils/generic_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_file_type_verification.py",
+		"/Users/clayschubiner/Downloads/output.json",
+		"/Users/clayschubiner/zsh_plugins/clay.sh",
+		"/Users/clayschubiner/call-of-duty-warzone-tracker/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/base/user_event_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/constants.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/move.ahk",
+		"/Users/clayschubiner/.ssh/config",
+		"/Users/clayschubiner/call-of-duty-warzone-tracker/data_file.csv",
+		"/Users/clayschubiner/Downloads/output_formatted.json",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/event_checkin_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_auth.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_company_roles.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_referral.py",
+		"/Users/clayschubiner/jumpstart-backend/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/email_utils.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands/message_students_for_communities_launch.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/models.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/auth/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv4.ahk",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/flake8.yml",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_current_user_api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_emails.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0080_auto_20190720_0118.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0082_auto_20190724_2139.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0083_auto_20190725_1935.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/users/migrations/0106_auto_20200115_1947.py",
+		"/Users/clayschubiner/Dropbox/Mackup/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/api.py",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/no_recoil.ahk",
+		"/Users/clayschubiner/Dropbox/AHK Recoil/recoilv3.ahk",
+		"/Users/clayschubiner/Downloads/Recruiting (1).wsdl",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_workday.py",
+		"/Users/clayschubiner/jumpstart-backend/.env",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/json/workday_responses.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/factories.py",
+		"/Users/clayschubiner/jumpstart-backend/.git/rebase-merge/git-rebase-todo",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/greenhouse/greenhouse_services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/lever/lever_services.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_workday_upload.py",
+		"/Users/clayschubiner/jumpstart-backend/fabfile.py",
+		"/Users/clayschubiner/jumpstart-backend/workday_soap.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/models.py",
+		"/Users/clayschubiner/.ssh/known_hosts",
+		"/Users/clayschubiner/jumpstart-backend/provisioner-new/site.yml",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/huge_dev_csv.csv",
+		"/Users/clayschubiner/Downloads/dev_csv_81.csv",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_greenhouse.py",
+		"/Users/clayschubiner/Downloads/Student_Recruiting.wsdl",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0052_auto_20190827_1712.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0087_auto_20200410_0005.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_users.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_filters.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/ats/test_ats_integrations_shared.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/fetch_new_ats_candidates_command.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/migrations/0051_auto_20190827_1705.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/services.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/management/commands/change_origin_for_stripe.py",
+		"/Users/clayschubiner/jumpstart-backend/requirements/common.txt",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/pr-title.yml",
+		"/Users/clayschubiner/discord_online_status_notifier_bot/bot.py",
+		"/Users/clayschubiner/jumpstart-backend/README.md",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints_workday.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/constants.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/questionnaires/migrations/0079_auto_20200331_2334.py",
+		"/Users/clayschubiner/jumpstart-backend/docs/api/ats_endpoints.md",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday/workday_singleton.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/tasks.py",
+		"/Users/clayschubiner/life_planner/.gitignore",
+		"/Users/clayschubiner/life_planner/evaluator.py",
+		"/Users/clayschubiner/Downloads/csv_of_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/csv_of_less_localhost_users.csv",
+		"/Users/clayschubiner/Downloads/recruiting_api_swagger.json",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/csv_files/no_email_column.csv",
+		"/Users/clayschubiner/Downloads/test_email_js.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/csv_imports/api.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_csv_import.py",
+		"/Users/clayschubiner/jumpstart-backend/query.sql",
+		"/Users/clayschubiner/jumpstart-backend/analyze.json",
+		"/Users/clayschubiner/Dropbox/Robinhood Transactions/transactions to sell.txt",
+		"/Users/clayschubiner/jumpstart-backend/.gitignore",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/serializers.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_custom_questions.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions/api.py",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_5000.csv",
+		"/Users/clayschubiner/Dropbox/Jumpstart (Dropbox)/prod_users_mega_csv_100.csv",
+		"/Users/clayschubiner/jumpstart-backend/.github/workflows/review-request-notifier.yml",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/celery.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/models.py",
+		"/Users/clayschubiner/jumpstart-backend/tests/integration/test_events.py",
+		"/Users/clayschubiner/Downloads/csv-clayemailtest.csv",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/admin.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/emails/api.py",
+		"/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles/emails.py"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 169.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Knee replacements",
+			"replacements",
+			"hip arth",
+			"Hip arthroscopy",
+			"Hip arthroscopy - FA",
+			"Hip arthroscopy - FAI",
+			"Hip arthroscopy - FAI\n",
+			"highly trained",
+			"highly trained doctors pride themselves on serving their patients with respect and diligence. Whether it be through surgery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15534,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										687,
+										701
+									],
+									[
+										1182,
+										1196
+									],
+									[
+										1788,
+										1802
+									],
+									[
+										2789,
+										2803
+									],
+									[
+										3808,
+										3822
+									],
+									[
+										4383,
+										4397
+									],
+									[
+										5113,
+										5127
+									],
+									[
+										5800,
+										5814
+									],
+									[
+										6353,
+										6367
+									],
+									[
+										7343,
+										7355
+									],
+									[
+										7368,
+										7380
+									],
+									[
+										7443,
+										7455
+									],
+									[
+										8047,
+										8059
+									],
+									[
+										8072,
+										8084
+									],
+									[
+										8147,
+										8159
+									],
+									[
+										8741,
+										8753
+									],
+									[
+										8766,
+										8778
+									],
+									[
+										8841,
+										8853
+									],
+									[
+										9452,
+										9464
+									],
+									[
+										9477,
+										9489
+									],
+									[
+										9552,
+										9564
+									],
+									[
+										10151,
+										10163
+									],
+									[
+										10176,
+										10188
+									],
+									[
+										10251,
+										10263
+									],
+									[
+										10867,
+										10879
+									],
+									[
+										10892,
+										10904
+									],
+									[
+										10967,
+										10979
+									],
+									[
+										11630,
+										11647
+									],
+									[
+										11655,
+										11672
+									],
+									[
+										12334,
+										12351
+									],
+									[
+										12359,
+										12376
+									],
+									[
+										13028,
+										13045
+									],
+									[
+										13053,
+										13070
+									],
+									[
+										13739,
+										13756
+									],
+									[
+										13764,
+										13781
+									],
+									[
+										14438,
+										14455
+									],
+									[
+										14463,
+										14480
+									],
+									[
+										15154,
+										15171
+									],
+									[
+										15179,
+										15196
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								11642,
+								11642
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 9,
+							"recent_file_switcher: timestamp": 1598136720.73,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4200.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/clayschubiner/_/burlingameorthopedics.com/2201.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5966,
+								5966
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1598136720.97,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2938.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/clayschubiner/_/burlingameorthopedics.com/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7710,
+								7710
+							]
+						],
+						"settings":
+						{
+							"recent_file_switcher: timestamp": 1598158870.99,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3813.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "burlingame orthopedics.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".env",
+				"jumpstart-backend/.env"
+			],
+			[
+				"fab",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"prtitl",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"requirements/common.txt",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"prtit",
+				"jumpstart-backend/.github/workflows/pr-title.yml"
+			],
+			[
+				"read",
+				"jumpstart-backend/README.md"
+			],
+			[
+				"atswor",
+				"jumpstart-backend/docs/api/ats_endpoints_workday.md"
+			],
+			[
+				"ats",
+				"jumpstart-backend/docs/api/ats_endpoints.md"
+			],
+			[
+				"comm",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"commont",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"travis",
+				"jumpstart-backend/.travis.yml"
+			],
+			[
+				"install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"deve",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"common",
+				"jumpstart-backend/requirements/common.txt"
+			],
+			[
+				"fabf",
+				"jumpstart-backend/fabfile.py"
+			],
+			[
+				"dev",
+				"jumpstart-backend/requirements/development.txt"
+			],
+			[
+				"endpoint",
+				"jumpstart-backend/docs/api/endpoints.md"
+			],
+			[
+				"setup",
+				"jumpstart-backend/setup.cfg"
+			],
+			[
+				"os install",
+				"jumpstart-backend/install_development_mac.sh"
+			],
+			[
+				"csvapi",
+				"jumpstart-backend/jumpstart/csv_imports/api.py"
+			],
+			[
+				"import",
+				"jumpstart-backend/tests/integration/test_csv_import.py"
+			],
+			[
+				"testyml",
+				"jumpstart-backend/.github/workflows/test.yml"
+			],
+			[
+				"test",
+				"company_roles/tests.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

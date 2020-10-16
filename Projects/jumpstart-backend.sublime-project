@@ -1,0 +1,69 @@
+{
+	"folders":
+	[
+		{
+			"name": "jumpstart-backend",
+			"path": "/Users/clayschubiner/jumpstart-backend"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/emails"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/custom_questions"
+		},
+		{
+			"path": "/Users/clayschubiner/life_planner"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/integrations/workday"
+		},
+		{
+			"path": "/Users/clayschubiner/discord_online_status_notifier_bot"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration/ats"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/integrations"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration/ats/json"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/auth"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/settings"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/mediauploads"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/users/management/commands"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/base/api"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration/filters"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/company_roles"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/users"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration"
+		}
+	]
+}

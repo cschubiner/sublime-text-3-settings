@@ -1,9 +1,5 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-		"Boxy Theme"
-	],
 	"installed_packages":
 	[
 		"A File Icon",
@@ -14,7 +10,6 @@
 		"Babel",
 		"Babel Snippets",
 		"Block Cursor Everywhere",
-		"Boxy Theme",
 		"Case Conversion",
 		"Clay Schubiner Color Schemes",
 		"Clipboard Path",
@@ -60,6 +55,7 @@
 		"TrailingSpaces",
 		"TypeScript",
 		"TypeScript Syntax",
+		"Vue Syntax Highlight",
 		"WakaTime"
 	]
 }

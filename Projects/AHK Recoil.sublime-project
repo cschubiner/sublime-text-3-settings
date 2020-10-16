@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"name": "AHK Recoil",
+			"path": "/Users/clayschubiner/Dropbox/AHK Recoil"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/users"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/base"
+		},
+		{
+			"path": "/Users/clayschubiner/call-of-duty-warzone-tracker"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/base/utils"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/tests/integration"
+		},
+		{
+			"path": "/Users/clayschubiner/jumpstart-backend/jumpstart/recruiter_analytics"
+		}
+	]
+}
