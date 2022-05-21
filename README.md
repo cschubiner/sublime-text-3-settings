@@ -1,4 +1,4 @@
-Sublime Text 3 Settings
+Sublime Text 4 Settings
 =======================
 
 These are the settings I use in Sublime Text 3.
