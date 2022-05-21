@@ -37,7 +37,7 @@ Most packages should install automatically, but you will need to manually instal
 
 You can install Sublime-SurroundWith by doing the following:
 ```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+cd ~/Library/Application\ Support/Sublime\ Text/Packages
 git clone https://github.com/cschubiner/Sublime-SurroundWith.git
 ```
 
@@ -62,7 +62,7 @@ You're done!
 Go to your User Packages directory:
 
 ```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+cd ~/Library/Application\ Support/Sublime\ Text/Packages/User
 ```
 
 Pull on the repo:
